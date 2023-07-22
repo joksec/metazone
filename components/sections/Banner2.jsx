@@ -13,10 +13,10 @@ export default function Banner2() {
                         </div>
                         <div className="col-xl-6 col-lg-7">
                             <div className="banner-content-two">
-                                <span className="sub-title">Hi, I am John William</span>
-                                <h2 className="title">Professional Product <span>Designer</span> Based in USA</h2>
+                                <span className="sub-title">Une agence innovante</span>
+                                <h2 className="title">Des solutions qui <span>boostent</span> vos projets</h2>
                                 <div className="banner-content-bottom">
-                                    <Link href="/contact" className="btn">Contact Us <span /></Link>
+                                    <Link href="/contact" className="btn">Contactez-nous <span /></Link>
                                     <ul className="list-wrap">
                                         <li><Link href="#"><img src="/assets/img/icon/banner_icon01.svg" alt="" /></Link></li>
                                         <li><Link href="#"><img src="/assets/img/icon/banner_icon02.svg" alt="" /></Link></li>
