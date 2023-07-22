@@ -24,29 +24,20 @@ export default function Header({ scroll, headercls }) {
                                         </div>
                                         <div className="navbar-wrap main-menu d-none d-lg-flex">
                                             <ul className="navigation">
-                                                <li className="active menu-item-has-children"><Link href="/#">Home</Link>
+                                            <li><Link href="#">Acceuil</Link></li>
+                                                <li><Link href="/about-us">Agence</Link></li>
+                                                <li className="menu-item-has-children"><Link href="/#">Nos services</Link>
                                                     <ul className="sub-menu">
-                                                        <li className="active"><Link href="/">Creative Agency</Link></li>
-                                                        <li><Link href="/index-2">Personal Portfolio</Link></li>
-                                                        <li><Link href="/index-3">Digital Agency</Link></li>
+                                                        <li><Link href="/about-me">Développement Web & Mobile</Link></li>
+                                                        <li><Link href="/team">Social Média</Link></li>
+                                                        <li><Link href="/team-details">Marketing digital</Link></li>
+                                                        <li><Link href="/project-details">Sécurité informatique</Link></li>
+                                                        <li><Link href="/services-details">Identité visuelle</Link></li>
+                                                        <li><Link href="/contact">Consulting Digital</Link></li>
                                                     </ul>
                                                 </li>
-                                                <li><Link href="/about-us">About Us</Link></li>
-                                                <li className="menu-item-has-children"><Link href="/#">pages</Link>
-                                                    <ul className="sub-menu">
-                                                        <li><Link href="/about-me">About Me</Link></li>
-                                                        <li><Link href="/team">Team Page</Link></li>
-                                                        <li><Link href="/team-details">Team Details</Link></li>
-                                                        <li><Link href="/project-details">Portfolio Details</Link></li>
-                                                        <li><Link href="/services-details">Services Details</Link></li>
-                                                        <li><Link href="/contact">Contact Us</Link></li>
-                                                    </ul>
-                                                </li>
-                                                <li className="menu-item-has-children"><Link href="/#">News</Link>
-                                                    <ul className="sub-menu">
-                                                        <li><Link href="/blog">Our Blog</Link></li>
-                                                        <li><Link href="/blog-details">Blog Details</Link></li>
-                                                    </ul>
+                                                <li><Link href="/#">Réalisations</Link>
+                                                    
                                                 </li>
                                             </ul>
                                         </div>

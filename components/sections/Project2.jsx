@@ -11,9 +11,9 @@ export default function Project2() {
                     <div className="row justify-content-center">
                         <div className="col-xl-7 col-lg-9">
                             <div className="section-title title-style-two white-title mb-60 text-center">
-                                <span className="sub-title">Portfolio</span>
-                                <h2 className="title">You Will Like These Design Made by Me</h2>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+                                <span className="sub-title">Réalisations</span>
+                                <h2 className="title">Dernières créations</h2>
+                                <p>Nous avons eu le plaisir de nous associer à un large éventail de marques, allant des startups technologiques aux entreprises de renommée. Notre approche Data-Driven a contribué au succès dans divers secteurs d’activités.</p>
                             </div>
                         </div>
                     </div>

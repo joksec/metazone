@@ -14,15 +14,13 @@ export default function About2() {
                         <div className="col-lg-6">
                             <div className="about-content-two">
                                 <div className="section-title white-title title-style-two mb-30">
-                                    <span className="sub-title">I'm a Designer</span>
-                                    <h2 className="title">I Can Design per <br /> Your Requirement</h2>
+                                    <span className="sub-title">MetaZone</span>
+                                    <h2 className="title">Agence <br /> digitale 360</h2>
                                 </div>
-                                <p>Hello there! I'm a web designer, and I'm very passionate and dedicated to my work. With 20 years experience as a
-                                    professional web developer, I have acquired the skills and knowledge necessary to make your project a success. I enjoy
-                                    every step of the design process, from discussion and collaboration.</p>
+                                <p>MetaZ est une agence conseil en communication digitale et innovation technologique. Nous accompagnons des groupes leaders, start-ups, institutions privées et publiques dans les secteurs de la finance, la santé, le retail, les télécoms ainsi que des acteurs des arts et de la culture.</p>
                                 <Link href="/contact">
                                     <span className="arrow"><img src="/assets/img/icon/right_arrow.svg" alt="" /></span>
-                                    <span className="text">Available jobs</span>
+                                    <span className="text">Plus d'infos</span>
                                 </Link>
                             </div>
                         </div>

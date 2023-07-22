@@ -1,0 +1,20 @@
+{
+  "../components/sections/Counter1.jsx -> ../elements/CounterUp": {
+    "id": "../components/sections/Counter1.jsx -> ../elements/CounterUp",
+    "files": [
+      "static/chunks/components_elements_CounterUp_js-_4bff0.js"
+    ]
+  },
+  "../components/sections/Counter2.jsx -> ../elements/CounterUp": {
+    "id": "../components/sections/Counter2.jsx -> ../elements/CounterUp",
+    "files": [
+      "static/chunks/components_elements_CounterUp_js-_4bff1.js"
+    ]
+  },
+  "../components/sections/Project2.jsx -> ../elements/PortfolioFilter": {
+    "id": "../components/sections/Project2.jsx -> ../elements/PortfolioFilter",
+    "files": [
+      "static/chunks/components_elements_PortfolioFilter_js.js"
+    ]
+  }
+}

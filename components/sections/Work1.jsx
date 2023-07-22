@@ -14,8 +14,8 @@ export default function Work1() {
                         <div className="col-lg-6">
                             <div className="work-content"> 
                                 <div className="section-title title-style-two white-title mb-30">
-                                    <span className="sub-title">Working Steps</span>
-                                    <h2 className="title">My Working Process</h2>
+                                    <span className="sub-title">votre transformation digitale</span>
+                                    <h4 className="title">Expériences digitales sur mesure</h4>
                                 </div>
                                 <div className="work-list">
                                     <ul className="list-wrap">
@@ -24,8 +24,8 @@ export default function Work1() {
                                                 <img src="/assets/img/icon/about_icon01.png" alt="" />
                                             </div>
                                             <div className="content">
-                                                <h4 className="title">Concept Creation</h4>
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                                <h4 className="title">Créativité</h4>
+                                                <p>Penser de manière créative est ce que nous faisons de mieux.</p>
                                             </div>
                                         </li>
                                         <li>
@@ -33,8 +33,8 @@ export default function Work1() {
                                                 <img src="/assets/img/icon/about_icon02.png" alt="" />
                                             </div>
                                             <div className="content">
-                                                <h4 className="title">Sketch Drawing</h4>
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                                <h4 className="title">Pértinence</h4>
+                                                <p>Le marketing digital, la planification des médias sont des facteurs clés du succès ou de l'échec d'une expérience.</p>
                                             </div>
                                         </li>
                                         <li>
@@ -42,8 +42,9 @@ export default function Work1() {
                                                 <img src="/assets/img/icon/about_icon03.png" alt="" />
                                             </div>
                                             <div className="content">
-                                                <h4 className="title">Final Design</h4>
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                                <h4 className="title">Pérformance</h4>
+                                                <p>MetaZone a fait ses preuves en fournissant d'excellents résultats à ses clients. En plus, nous sommes accrédités comme étant un partenaire digital de Google
+.</p>
                                             </div>
                                         </li>
                                     </ul>

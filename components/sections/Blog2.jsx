@@ -8,8 +8,8 @@ export default function Blog2() {
                     <div className="row justify-content-center">
                         <div className="col-lg-8">
                             <div className="section-title title-style-two white-title text-center mb-60">
-                                <span className="sub-title">My Blog</span>
-                                <h2 className="title">Recent blog post</h2>
+                                <span className="sub-title">Blog</span>
+                                <h2 className="title">Nos derniers articles</h2>
                             </div>
                         </div>
                     </div>

@@ -46,16 +46,15 @@
 /*=============================
 	1. Google Fonts
 ===============================*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 /*=============================
 	01. Variable CSS
 ===============================*/
 :root {
     --tg-body-font-family        : 'Poppins', sans-serif;
     --tg-heading-font-family     : 'Poppins', sans-serif;
-    --tg-primary-color           : #F89E52;
-    --tg-secondary-color         : #3482FF;
+    --tg-primary-color           : #ED0B70;
+    --tg-secondary-color         : #6641e0;
     --tg-body-font-color         : #666666;
     --tg-heading-font-color      : #0B0B0B;
     --tg-banner-title-color      : #2A2A2A;
@@ -85,7 +84,7 @@
     --tg-pink                    : #F84D55;
     --tg-red                     : #F76766;
     --tg-orange                  : #F26F3B;
-    --tg-yellow                  : #F1F026;
+    --tg-yellow                  : #F060A0;
     --tg-yellow-two              : #F5A623;
     --tg-yellow-three            : #ECB321;
     --tg-green                   : #1B9A81;
@@ -358,9 +357,9 @@ label {
 ===============================*/
 .btn {
     user-select   : none;
-    background    : var(--tg-secondary-color) none repeat scroll 0 0;
+    background    : #111011;
     border        : medium none;
-    border-radius : 20px;
+    border-radius : 50px;
     color         : var(--tg-white);
     cursor        : pointer;
     display       : inline-block;
@@ -502,9 +501,9 @@ label {
 
 .navbar-wrap ul li a {
     font-size     : 16px;
-    font-weight   : 500;
+    font-weight   : 400;
     text-transform: capitalize;
-    color         : var(--tg-menu-color);
+    color         : #1b1b1c;
     padding       : 35px 18px;
     display       : block;
     line-height   : 1;
@@ -553,11 +552,11 @@ label {
     font-size  : 16px;
     padding    : 19px 33px;
     font-weight: 500;
-    background : var(--tg-primary-color);
+    background : #111011;
 }
 
 .header-action .header-btn .btn span {
-    background: var(--tg-secondary-color);
+    background: #09D5DC;
 }
 
 .navbar-wrap ul li .sub-menu {
@@ -3227,7 +3226,7 @@ label {
 }
 
 .tools-item {
-    background   : var(--tg-black-two);
+    background   : var(--tg-black-four);
     box-shadow   : 0px 35px 54px rgba(4, 13, 24, 0.13);
     border-radius: 20px;
     padding      : 40px 35px;
@@ -6599,7 +6598,7 @@ label {
 }
 
 .logo img {
-    max-width: 126px;
+    max-width: 180px;
 }
 
 .footer-top {

@@ -13,7 +13,7 @@ export default function Footer2({ nf3 }) {
                                         <div className="logo">
                                             <Link href="/"><img src="/assets/img/logo/w_logo.png" alt="" /></Link>
                                         </div>
-                                        <p>Agency is a full-service agency, busy designing and building beautiful digital products, brands, and experiences.</p>
+                                        <p>MetaZone est une agence à service complet, occupé à concevoir et à construire de beaux produits numériques, marques et expériences.</p>
                                     </div>
                                 </div>
                             </div>
@@ -28,7 +28,7 @@ export default function Footer2({ nf3 }) {
                                 <div className="col-md-6">
                                     <div className="footer-social-two">
                                         <ul className="list-wrap">
-                                            <li className="title">Follow us</li>
+                                            <li className="title">Suivez-nous</li>
                                             <li><Link href="#"><img src="/assets/img/icon/footer_icon01.png" alt="" /></Link></li>
                                             <li><Link href="#"><img src="/assets/img/icon/footer_icon02.png" alt="" /></Link></li>
                                             <li><Link href="#"><img src="/assets/img/icon/footer_icon03.png" alt="" /></Link></li>

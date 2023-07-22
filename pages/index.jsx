@@ -1,28 +1,32 @@
 import Layout from "@/components/layout/Layout"
-import About1 from "@/components/sections/About1"
-import Banner1 from "@/components/sections/Banner1"
-import Blog1 from "@/components/sections/Blog1"
-import Consultation1 from "@/components/sections/Consultation1"
-import Newsletter1 from "@/components/sections/Newsletter1"
-import Project1 from "@/components/sections/Project1"
-import Services1 from "@/components/sections/Services1"
-import Team1 from "@/components/sections/Team1"
-import Testimonial1 from "@/components/sections/Testimonial1"
-export default function Home1() {
+import About2 from "@/components/sections/About2"
+import Banner2 from "@/components/sections/Banner2"
+import Blog2 from "@/components/sections/Blog2"
+import Brand1 from "@/components/sections/Brand1"
+import Contact1 from "@/components/sections/Contact1"
+import Counter1 from "@/components/sections/Counter1"
+import Pricing1 from "@/components/sections/Pricing1"
+import Project2 from "@/components/sections/Project2"
+import Services2 from "@/components/sections/Services2"
+import Testimonial2 from "@/components/sections/Testimonial2"
+import Work1 from "@/components/sections/Work1"
+export default function Home2() {
 
     return (
         <>
-            <Layout>
-                <Banner1 />
-                <Services1 />
-                <About1 />
-                <Team1 />
-                <Project1 />
-                <Testimonial1 />
-                <Consultation1 />
-                <Blog1 />
-                <Newsletter1 />
-            </Layout>
+            <div className="black-background" > 
+                <Layout footerStyle={2} headercls="menu-style-two" nf3>
+                    <Banner2 />
+                    <Brand1 />
+                    <About2 />
+                    <Counter1 />
+                    <Services2 />
+                    <Project2 />
+                    <Work1 />
+                    <Blog2 />
+                    <Contact1 />
+                </Layout>
+            </div>
         </>
     )
 }
