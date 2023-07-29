@@ -90,7 +90,7 @@
     --tg-green                   : #1B9A81;
     --tg-green-two               : #7DDB39;
     --tg-teal                    : #57C0CE;
-    --tg-cyan                    : #0dcaf0;
+    --tg-cyan                    : #09D5DC;
     --tg-white                   : #ffffff;
     --tg-black                   : #292930;
     --tg-black-two               : #1D1D25;
@@ -157,6 +157,7 @@ img,
 }
 
 a,
+
 button {
     -webkit-transition: all 0.3s ease-out 0s;
     -moz-transition   : all 0.3s ease-out 0s;
@@ -357,10 +358,56 @@ label {
 ===============================*/
 .btn {
     user-select   : none;
-    background    : #111011;
+    background    : #1a393b;
     border        : medium none;
     border-radius : 50px;
     color         : var(--tg-white);
+    cursor        : pointer;
+    display       : inline-block;
+    font-size     : 16px;
+    font-weight   : 600;
+    letter-spacing: 0;
+    line-height   : 1;
+    margin-bottom : 0px;
+    padding       : 28px 55px;
+    text-align    : center;
+    text-transform: capitalize;
+    touch-action  : manipulation;
+    transition    : all 700ms ease 0s;
+    vertical-align: middle;
+    white-space   : nowrap;
+    position      : relative;
+    overflow      : hidden;
+    z-index       : 1;
+}
+.btn2 {
+    user-select   : none;
+    border: 2px solid var(--tg-primary-color);
+    border-radius : 50px;
+    color         : var(--tg-black-two);
+    cursor        : pointer;
+    display       : inline-block;
+    font-size     : 16px;
+    font-weight   : 600;
+    letter-spacing: 0;
+    line-height   : 1;
+    margin-bottom : 0px;
+    padding       : 28px 55px;
+    text-align    : center;
+    text-transform: capitalize;
+    touch-action  : manipulation;
+    transition    : all 700ms ease 0s;
+    vertical-align: middle;
+    white-space   : nowrap;
+    position      : relative;
+    overflow      : hidden;
+    z-index       : 1;
+}
+.btn3 {
+    user-select   : none;
+    border: 2px solid #09D5DC;
+    border-radius : 50px;
+    color         : var(--tg-black-two);
     cursor        : pointer;
     display       : inline-block;
     font-size     : 16px;
@@ -407,6 +454,9 @@ label {
 
 .btn:hover {
     color: var(--tg-white);
+}
+.btn2:hover {
+    color: var(--tg-primary-color);
 }
 
 .breadcrumb>.active {
@@ -1673,7 +1723,7 @@ label {
 }
 
 .banner-content-two .title span {
-    color: var(--tg-purple);
+    color: var(--tg-cyan);
 }
 
 .banner-content-two .banner-content-bottom {
@@ -1726,6 +1776,8 @@ label {
     padding : 190px 0 150px;
     position: relative;
     overflow: hidden;
+    background-image: url("/assets/img/images/Background2x.jpg");
+    z-index: 1;
 }
 
 .slider-content .title {
@@ -6305,11 +6357,12 @@ label {
 
 /* newsletter-two */
 .newsletter-wrap {
-    background   : var(--tg-black-two);
-    padding      : 110px 100px 120px;
+    background   : #fff;
+    padding      : 60px 70px 80px;
     position     : relative;
-    border-radius: 150px 20px 20px 20px;
+    border-radius: 50px;
     z-index      : 1;
+    opacity: 0.9;
 }
 
 .newsletter-area-two .newsletter-form input {
@@ -6598,7 +6651,7 @@ label {
 }
 
 .logo img {
-    max-width: 180px;
+    max-width: 150px;
 }
 
 .footer-top {

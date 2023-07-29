@@ -12,7 +12,8 @@ export default function Home3() {
 
     return (
         <>
-            <Layout footerStyle={2}>
+        
+        <Layout footerStyle={2} headercls="menu-style-two" nf3>
                 <Slider1 />
                 <Services3 />
                 <Brand2 />

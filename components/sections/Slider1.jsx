@@ -8,7 +8,7 @@ const swiperOptions = {
     slidesPerView: 1,
     spaceBetween: 0,
     autoplay: {
-        delay: 8500,
+        delay: 844500,
         disableOnInteraction: false,
     },
     loop: true,
@@ -25,11 +25,34 @@ export default function Slider1() {
                             <div className="row align-items-center">
                                 <div className="col-lg-6 order-0 order-lg-2">
                                     <div className="slider-img text-end" data-animation="fadeInRight" data-delay="2.8s">
-                                        <img src="/assets/img/slider/slider_img01.png" alt="" />
+                                    <div className="newsletter-wrap">
+                        <div className="row justify-content-center">
+                        <div class="services-icon-five"><img src="/assets/img/icon/inner_two_services_icon01.png" alt=""/></div>
+                                <div className="title-style-two text-center mb-30">
+                                    <h2 className="title mb-30">Demander un devis</h2>
+                                    <p>Vous êtes :</p>
+                                   <div className="d-flex justify-content-evenly">
+                                   <button className="btn2">Un partculier</button>
+                                   <button className="btn3">Une entreprise </button>
+                                   </div>
+                                </div>
+                                <div className="newsletter-form">
+                                    <form action="#">
+                                        <input type="email" placeholder="Séléctionez un service" />
+                                    
+                                    </form>
+                                </div>
+                         </div>
+                        
+                        
+                         <div className="row justify-content-center pt-50">
+                                        <button type="submit" className="btn">Obtenir votre devis <span /></button>
+                                        </div>
+                    </div>
                                     </div>
                                 </div>
                                 <div className="col-lg-6">
-                                    <div className="slider-content">
+                                    <div className="banner-content-two">
                                         <h2 className="title" data-animation="fadeInUp" data-delay=".8s">Nous sommes les artisans du digital.</h2>
                                         <p data-animation="fadeInUp" data-delay=".4s">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the</p>
                                         <div className="slider-btn">
@@ -46,11 +69,11 @@ export default function Slider1() {
                             <div className="row align-items-center">
                                 <div className="col-lg-6 order-0 order-lg-2">
                                     <div className="slider-img text-end" data-animation="fadeInRight" data-delay=".8s">
-                                        <img src="/assets/img/slider/slider_img01.png" alt="" />
+                                        <img src="/assets/img/slider/ia.png" alt="" />
                                     </div>
                                 </div>
                                 <div className="col-lg-6">
-                                    <div className="slider-content">
+                                    <div className="banner-content-two">
                                         <h2 className="title" data-animation="fadeInUp" data-delay=".8s">Des solutions qui <span>boostent</span> vos projets</h2>
                                         <p data-animation="fadeInUp" data-delay=".4s">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the</p>
                                         <div className="slider-btn">
@@ -67,11 +90,11 @@ export default function Slider1() {
                             <div className="row align-items-center">
                                 <div className="col-lg-6 order-0 order-lg-2">
                                     <div className="slider-img text-end" data-animation="fadeInRight" data-delay=".8s">
-                                        <img src="/assets/img/slider/px4.png" alt="" />
+                                        <img src="/assets/img/slider/04.png" alt="" />
                                     </div>
                                 </div>
                                 <div className="col-lg-6">
-                                    <div className="slider-content">
+                                    <div className="banner-content-two">
                                         <h2 className="title" data-animation="fadeInUp" data-delay=".2s">Digital Agency Business Make Big Deal.</h2>
                                         <p data-animation="fadeInUp" data-delay=".4s">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the</p>
                                         <div className="slider-btn">
