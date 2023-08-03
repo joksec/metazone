@@ -20,45 +20,22 @@ export default function Slider1() {
         <>
             <section className="slider-area">
                 <Swiper {...swiperOptions} className="slider-active">
-                    <SwiperSlide className="single-slider">
+                <SwiperSlide className="single-slider">
                         <div className="container">
                             <div className="row align-items-center">
                                 <div className="col-lg-6 order-0 order-lg-2">
-                                    <div className="slider-img text-end" data-animation="fadeInRight" data-delay="2.8s">
-                                    <div className="newsletter-wrap">
-                        <div className="row justify-content-center">
-                        <div class="services-icon-five"><img src="/assets/img/icon/inner_two_services_icon01.png" alt=""/></div>
-                                <div className="title-style-two text-center mb-30">
-                                    <h2 className="title mb-30">Demander un devis</h2>
-                                    <p>Vous êtes :</p>
-                                   <div className="d-flex justify-content-evenly">
-                                   <button className="btn2">Un partculier</button>
-                                   <button className="btn3">Une entreprise </button>
-                                   </div>
-                                </div>
-                                <div className="newsletter-form">
-                                    <form action="#">
-                                        <input type="email" placeholder="Séléctionez un service" />
-                                    
-                                    </form>
-                                </div>
-                         </div>
-                        
-                        
-                         <div className="row justify-content-center pt-50">
-                                        <button type="submit" className="btn">Obtenir votre devis <span /></button>
+                                <div className="banner-content-three">
+                                         <p class="title" data-animation="fadeInUp" data-delay=".4s">Explorez les derniéres tendances du web et du digital pour transformer votre expérience en ligne.</p>
+                                        <div className="slider-btn">
+                                        <Link href="/services-details" className="link-btn">Savoir plus <i className="pl-20 fal fa-chevron-right" /></Link>
+                                            
                                         </div>
-                    </div>
                                     </div>
                                 </div>
                                 <div className="col-lg-6">
                                     <div className="banner-content-two">
-                                        <h2 className="title" data-animation="fadeInUp" data-delay=".8s">Nous sommes les artisans du digital.</h2>
-                                        <p data-animation="fadeInUp" data-delay=".4s">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the</p>
-                                        <div className="slider-btn">
-                                            <Link href="/contact" className="btn" data-animation="fadeInLeft" data-delay=".6s">Get Started <span /></Link>
-                                            <VideoPopup text="See Live Demo "/>
-                                        </div>
+                                        <h2 className="title" data-animation="fadeInUp" data-delay=".8s">Expérience Digitale Inégalée-Construisez votre présence en ligne</h2>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -68,18 +45,18 @@ export default function Slider1() {
                         <div className="container">
                             <div className="row align-items-center">
                                 <div className="col-lg-6 order-0 order-lg-2">
-                                    <div className="slider-img text-end" data-animation="fadeInRight" data-delay=".8s">
-                                        <img src="/assets/img/slider/ia.png" alt="" />
+                                <div className="banner-content-three">
+                                         <p class="title" data-animation="fadeInUp" data-delay=".4s">Explorez les derniéres tendances du web et du digital pour transformer votre expérience en ligne.</p>
+                                        <div className="slider-btn">
+                                        <Link href="/services-details" className="link-btn">Savoir plus <i className="pl-20 fal fa-chevron-right" /></Link>
+                                            
+                                        </div>
                                     </div>
                                 </div>
                                 <div className="col-lg-6">
                                     <div className="banner-content-two">
                                         <h2 className="title" data-animation="fadeInUp" data-delay=".8s">Des solutions qui <span>boostent</span> vos projets</h2>
-                                        <p data-animation="fadeInUp" data-delay=".4s">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the</p>
-                                        <div className="slider-btn">
-                                            <a href="/contact" className="btn" data-animation="fadeInLeft" data-delay=".6s">Get Started <span /></a>
-                                            <VideoPopup text="See Live Demo "/>
-                                        </div>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -89,24 +66,36 @@ export default function Slider1() {
                         <div className="container">
                             <div className="row align-items-center">
                                 <div className="col-lg-6 order-0 order-lg-2">
-                                    <div className="slider-img text-end" data-animation="fadeInRight" data-delay=".8s">
-                                        <img src="/assets/img/slider/04.png" alt="" />
+                                <div className="banner-content-three">
+                                         <p class="title" data-animation="fadeInUp" data-delay=".4s">Explorez les derniéres tendances du web et du digital pour transformer votre expérience en ligne.</p>
+                                        <div className="slider-btn">
+                                        <Link href="/services-details" className="link-btn">Savoir plus <i className="pl-20 fal fa-chevron-right" /></Link>
+                                            
+                                        </div>
                                     </div>
                                 </div>
                                 <div className="col-lg-6">
                                     <div className="banner-content-two">
-                                        <h2 className="title" data-animation="fadeInUp" data-delay=".2s">Digital Agency Business Make Big Deal.</h2>
-                                        <p data-animation="fadeInUp" data-delay=".4s">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the</p>
-                                        <div className="slider-btn">
-                                            <a href="/contact" className="btn" data-animation="fadeInLeft" data-delay=".6s">Get Started <span /></a>
-                                            <VideoPopup text="See Live Demo "/>
-                                        </div>
+                                        <h2 className="title" data-animation="fadeInUp" data-delay=".8s">Des solutions qui <span>boostent</span> vos projets</h2>
+                                        
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </SwiperSlide>
                 </Swiper>
+                <div class="container mt-50">
+    <div class="row justify-content-center">
+        <div class="col-xl-1 col-lg-7">
+            <div class="text-center">
+            <div className="slider-btn">
+               
+                                            <VideoPopup/>
+                                        </div>
+        </div>
+        </div>
+        </div>
+        </div>
                 <div className="slider-shape-wrap">
                     <img src="/assets/img/slider/slider_shape01.png" alt="" />
                     <img src="/assets/img/banner/h2_banner_shape04.png" alt="" />

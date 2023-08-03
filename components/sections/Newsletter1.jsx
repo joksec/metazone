@@ -7,8 +7,8 @@ export default function Newsletter1() {
                     <div className="row justify-content-center">
                         <div className="col-lg-6">
                             <div className="section-title text-center mb-80">
-                                <span className="sub-title">Get update</span>
-                                <h2 className="title">Get latest updates <br /> and dealsi</h2>
+                                <span className="sub-title">Newsletter</span>
+                                <h2 className="title">Recevez les dernières <br /> offres</h2>
                             </div>
                         </div>
                     </div>
@@ -17,7 +17,7 @@ export default function Newsletter1() {
                             <div className="newsletter-form">
                                 <form action="#">
                                     <input type="email" placeholder="Enter your email address" />
-                                    <button type="submit" className="btn">Subscribe <span /></button>
+                                    <button type="submit" className="btn">Abonnez-vous <span /></button>
                                 </form>
                             </div>
                         </div>

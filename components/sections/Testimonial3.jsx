@@ -59,7 +59,7 @@ export default function Testimonial3() {
                     <div className="row align-items-center">
                         <div className="col-md-8">
                             <div className="section-title title-style-two white-title mb-45">
-                                <h2 className="title">Some Words From <br /> Our Customers</h2>
+                                <h2 className="title">Quelques mots de<br />Nos clients</h2>
                             </div>
                         </div>
                         <div className="col-md-4">

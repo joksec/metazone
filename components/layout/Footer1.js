@@ -78,7 +78,7 @@ export default function Footer1() {
                                 </div>
                                 <div className="col-md-6">
                                     <div className="copyright-text text-end">
-                                        <p>© {new Date().getFullYear()} Xolio - NextJS template by AliThemes</p>
+                                        <p>© {new Date().getFullYear()} MetaZ - France Agency</p>
                                     </div>
                                 </div>
                             </div>

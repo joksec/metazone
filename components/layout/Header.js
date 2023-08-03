@@ -40,13 +40,21 @@ export default function Header({ scroll, headercls }) {
                                                     
                                                 </li>
                                             </ul>
+                                            
                                         </div>
                                         <div className="header-action">
                                             <ul className="list-wrap">
-                                                <li className="header-btn"><Link href="contact" className="btn">Contact <span /></Link></li>
+                                            <button class="learn-more">
+    <span class="circle" aria-hidden="true">
+      <span class="icon arrow"></span>
+    </span>
+    <span class="button-text">Contact</span>
+  </button>
+                                                <li className="header-btn"><Link href="contact" className="btn">Obtenir votre devis <span /></Link></li>
                                             </ul>
                                         </div>
                                     </nav>
+                                    
                                 </div>
                                 {/* Mobile Menu  */}
                                 <div className="mobile-menu">
