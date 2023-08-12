@@ -9,7 +9,7 @@ import Services3 from "@/components/sections/Services3"
 import Slider1 from "@/components/sections/Slider1"
 import Testimonial3 from "@/components/sections/Testimonial3"
 export default function Home3() {
-
+    
     return (
         <>
         
