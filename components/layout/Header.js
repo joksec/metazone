@@ -24,7 +24,7 @@ export default function Header({ scroll, headercls }) {
                                         </div>
                                         <div className="navbar-wrap main-menu d-none d-lg-flex">
                                             <ul className="navigation">
-                                            <li><Link href="#">Acceuil</Link></li>
+                                            <li><Link href="/">Acceuil</Link></li>
                                                 <li><Link href="/about-us">Agence</Link></li>
                                                 <li className="menu-item-has-children"><Link href="/#">Nos services</Link>
                                                     <ul className="sub-menu">
@@ -36,7 +36,7 @@ export default function Header({ scroll, headercls }) {
                                                         <li><Link href="/contact">Consulting Digital</Link></li>
                                                     </ul>
                                                 </li>
-                                                <li><Link href="/#">Réalisations</Link>
+                                                <li><Link href="/realisations">Réalisations</Link>
                                                     
                                                 </li>
                                             </ul>
@@ -44,12 +44,12 @@ export default function Header({ scroll, headercls }) {
                                         </div>
                                         <div className="header-action">
                                             <ul className="list-wrap">
-                                            <button class="learn-more">
+                                            <Link href="contact"> <button class="learn-more">
     <span class="circle" aria-hidden="true">
       <span class="icon arrow"></span>
     </span>
-    <span class="button-text">Contact</span>
-  </button>
+   <span class="button-text">Contact</span>
+  </button></Link>
                                                 <li className="header-btn"><Link href="contact" className="btn">Obtenir votre devis <span /></Link></li>
                                             </ul>
                                         </div>

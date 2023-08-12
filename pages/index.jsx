@@ -1,32 +1,26 @@
 import Layout from "@/components/layout/Layout"
-import About2 from "@/components/sections/About2"
-import Banner2 from "@/components/sections/Banner2"
-import Blog2 from "@/components/sections/Blog2"
-import Brand1 from "@/components/sections/Brand1"
-import Contact1 from "@/components/sections/Contact1"
-import Counter1 from "@/components/sections/Counter1"
-import Pricing1 from "@/components/sections/Pricing1"
-import Project2 from "@/components/sections/Project2"
-import Services2 from "@/components/sections/Services2"
-import Testimonial2 from "@/components/sections/Testimonial2"
-import Work1 from "@/components/sections/Work1"
-export default function Home2() {
+import Agency1 from "@/components/sections/Agency1"
+import Blog3 from "@/components/sections/Blog3"
+import Brand2 from "@/components/sections/Brand2"
+import Counter2 from "@/components/sections/Counter2"
+import Newsletter1 from "@/components/sections/Newsletter1"
+import Project3 from "@/components/sections/Project3"
+import Services3 from "@/components/sections/Services3"
+import Slider1 from "@/components/sections/Slider1"
+import Testimonial3 from "@/components/sections/Testimonial3"
+export default function Home3() {
 
     return (
         <>
-            <div className="black-background" > 
-                <Layout footerStyle={2} headercls="menu-style-two" nf3>
-                    <Banner2 />
-                    <Brand1 />
-                    <About2 />
-                    <Counter1 />
-                    <Services2 />
-                    <Project2 />
-                    <Work1 />
-                    <Blog2 />
-                    <Contact1 />
-                </Layout>
-            </div>
+        
+        <Layout footerStyle={1} headercls="menu-style-two" nf3>
+                <Slider1 />
+                <Services3 />
+                <Agency1 />
+                <Project3 />
+                <Testimonial3 />
+                <Newsletter1 />
+            </Layout>
         </>
     )
 }

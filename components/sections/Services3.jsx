@@ -1,10 +1,10 @@
 import Link from "next/link"
 
-import { Autoplay } from "swiper"
+import { Autoplay, Pagination } from "swiper"
 import { Swiper, SwiperSlide } from "swiper/react"
 
 const swiperOptions = {
-    modules: [Autoplay],
+    modules: [Autoplay, Pagination],
     slidesPerView: 3,
     spaceBetween: 30,
     autoplay: {
@@ -12,7 +12,10 @@ const swiperOptions = {
         disableOnInteraction: false,
     },
     loop: true,
-
+    pagination: {
+        el: '.swiper-pagination5',
+        clickable: true
+    },
     breakpoints: {
         320: {
             slidesPerView: 1,
@@ -130,6 +133,9 @@ export default function Services3() {
                                 </div>
                             </SwiperSlide>
                         </Swiper>
+                        <div className="text-center mt-30">
+                            <div className="swiper-pagination5"></div>
+                        </div>
                     </div>
                 </div>
                 <div className="services-shape">

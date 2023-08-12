@@ -44,12 +44,12 @@ export default function PortfolioFilter() {
             <div className="row">
                 <div className="col-lg-12">
                     <div className="project-menu-nav">
-                        <button className={activeBtn("*")} onClick={handleFilterKeyChange("*")}>View All</button>
-                        <button className={activeBtn("cat-one")} onClick={handleFilterKeyChange("cat-one")}>App</button>
-                        <button className={activeBtn("cat-two")} onClick={handleFilterKeyChange("cat-two")}>Website</button>
-                        <button className={activeBtn("cat-three")} onClick={handleFilterKeyChange("cat-three")}>Landing-page</button>
-                        <button className={activeBtn("cat-four")} onClick={handleFilterKeyChange("cat-four")}>Branding-app</button>
-                        <button className={activeBtn("cat-five")} onClick={handleFilterKeyChange("cat-five")}>Product Design</button>
+                        <button className={activeBtn("*")} onClick={handleFilterKeyChange("*")}>Voir tout</button>
+                        <button className={activeBtn("cat-one")} onClick={handleFilterKeyChange("cat-one")}>Website</button>
+                        <button className={activeBtn("cat-two")} onClick={handleFilterKeyChange("cat-two")}>Identité visuél</button>
+                        <button className={activeBtn("cat-three")} onClick={handleFilterKeyChange("cat-three")}>Social Média</button>
+                        <button className={activeBtn("cat-four")} onClick={handleFilterKeyChange("cat-four")}>Marketing digital</button>
+                        <button className={activeBtn("cat-five")} onClick={handleFilterKeyChange("cat-five")}>SEO</button>
                     </div>
                 </div>
             </div>

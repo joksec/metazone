@@ -1785,13 +1785,13 @@ label {
 
 .banner-content-two .title {
     font-weight  : 700;
-    font-size    : 48px;
+    font-size    : 38px;
     margin-bottom: 60px;
     color        : var(--tg-white);
 }
 .banner-content-three .title {
     font-weight  : 300;
-    font-size    : 28px;
+    font-size    : 22px;
     margin-bottom: 60px;
     color        : var(--tg-gray-three);
 }
@@ -4122,7 +4122,7 @@ label {
     background    : transparent;
     padding       : 0;
     font-size     : 18px;
-    color         : var(--tg-white);
+    color         : var(--tg-black);
     margin        : 0 27px;
     position      : relative;
     padding-bottom: 12px;
@@ -5004,7 +5004,7 @@ label {
     height       : 16px;
     border-radius: 50%;
     background   : transparent;
-    margin       : 0 !important;
+    margin       : 4px !important;
     position     : relative;
     border       : 2px solid #E8D4C4;
     transition   : .3s ease-in-out;

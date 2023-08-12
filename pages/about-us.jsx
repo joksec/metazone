@@ -56,8 +56,8 @@ export default function AboutUs() {
 
     return (
         <>
-            <Layout breadcrumbTitle="About Us" breadcrumbCls="pt-175 pb-140">
-                <section className="counter-area-three">
+            <Layout>
+                <section className=" pt-175 pb-140 counter-area-three">
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-lg-6 order-0 order-lg-2">
@@ -69,8 +69,8 @@ export default function AboutUs() {
                                                     <img src="/assets/img/icon/inner_counter_icon01.png" alt="" />
                                                 </div>
                                                 <div className="content">
-                                                    <h2 className="count"><CounterUp className="odometer" count={210} />+</h2>
-                                                    <p>Satisfied <span>Customers</span></p>
+                                                    <h2 className="count"><CounterUp className="odometer" count={90} />+</h2>
+                                                    <p>Clients <span>satisfaits</span></p>
                                                 </div>
                                             </div>
                                         </li>
@@ -80,8 +80,8 @@ export default function AboutUs() {
                                                     <img src="/assets/img/icon/inner_counter_icon02.png" alt="" />
                                                 </div>
                                                 <div className="content">
-                                                    <h2 className="count"><CounterUp className="odometer" count={15} />k+</h2>
-                                                    <p>Project <span>Finished</span></p>
+                                                    <h2 className="count"><CounterUp className="odometer" count={105} />+</h2>
+                                                    <p>Projet <span>terminé</span></p>
                                                 </div>
                                             </div>
                                         </li>
@@ -91,8 +91,8 @@ export default function AboutUs() {
                                                     <img src="/assets/img/icon/inner_counter_icon03.png" alt="" />
                                                 </div>
                                                 <div className="content">
-                                                    <h2 className="count"><CounterUp className="odometer" count={110} />+</h2>
-                                                    <p>Our <span>Employees</span></p>
+                                                    <h2 className="count"><CounterUp className="odometer" count={10} />+</h2>
+                                                    <p>Nos <span>employés</span></p>
                                                 </div>
                                             </div>
                                         </li>
@@ -102,8 +102,8 @@ export default function AboutUs() {
                                                     <img src="/assets/img/icon/inner_counter_icon04.png" alt="" />
                                                 </div>
                                                 <div className="content">
-                                                    <h2 className="count"><CounterUp className="odometer" count={12} />+</h2>
-                                                    <p>International <span>Awards</span></p>
+                                                    <h2 className="count"><CounterUp className="odometer" count={21} />+</h2>
+                                                    <p>Certificats <span>d'expertise</span></p>
                                                 </div>
                                             </div>
                                         </li>
@@ -113,14 +113,13 @@ export default function AboutUs() {
                             <div className="col-lg-6">
                                 <div className="counter-content-three">
                                     <div className="section-title title-style-two mb-30">
-                                        <h2 className="title">Content Has to Be More That Just Brilliant</h2>
+                                        <h2 className="title">MetaZ <span>.</span> Un Pont entre l'idée et la Réalité Digitale</h2>
                                     </div>
-                                    <p>Lorem ipsum dolor sit amet, sed nulla ante amet, elementum tincidunt arcu sed laoreet, natoque ac eget imperdiet. Ac
-                                        scelerisque nibh dolores consectetuer, nulla aptent est pede. Scelerisque euismod varius mi, congue eget sed vestibulum, ornare cras sed nec.</p>
+                                    <p>Redéfinissez votre avenir numérique. Nous sommes une agence de développement passionnée, dévouée à créer des expériences numériques innovantes qui transcendent les attentes. Avec une équipe talentueuse d'experts en développement, nous explorons les frontières de la technologie pour façonner un monde numérique extraordinaire.</p>
                                     <img src="/assets/img/images/sine.png" alt="" />
                                     <div className="content-bottom">
-                                        <h4 className="title-two">Davis Levin</h4>
-                                        <span>Director Company</span>
+                                        <h4 className="title-two">Ilyass Boukraa</h4>
+                                        <span>CEO</span>
                                     </div>
                                 </div>
                             </div>
@@ -134,8 +133,8 @@ export default function AboutUs() {
                         <div className="row justify-content-center">
                             <div className="col-xl-7">
                                 <div className="section-title title-style-two text-center mb-70">
-                                    <h2 className="title">Meet The Squad</h2>
-                                    <p>Lorem ipsum dolor sit amet, sed nulla ante amet, elementum tincidunt arcu sed laoreet, natoque ac eget imperdiet. Ac scelerisque nibh dolores</p>
+                                    <h2 className="title">Rencontrez l'équipe</h2>
+                                    <p>Notre équipe chez MetaZ est composée de passionnés du développement, créatifs et technologues, travaillant ensemble pour créer des solutions numériques innovantes et personnalisées.</p>
                                 </div>
                             </div>
                         </div>
@@ -239,74 +238,15 @@ export default function AboutUs() {
                     </div>
                 </section>
                 {/* team-area-end */}
-                {/* consultation-area */}
-                <section className="consultation-area consultation-area-two pt-120 pb-120">
-                    <div className="container">
-                        <div className="row align-items-center">
-                            <div className="col-lg-7">
-                                <div className="consultation-content">
-                                    <div className="section-title mb-25">
-                                        <span className="sub-title">95% Accuracy</span>
-                                        <h2 className="title">Worldwide Best Digital Marketing Agency</h2>
-                                    </div>
-                                    <p>Lorem ipsum dolor sit amet, sed nulla ante amet, elementum tincidunt arcu sed laoreet, natoque ac eget imperdiet. Ac
-                                        scelerisque nibh dolores consectetuer, nulla aptent est pede. Scelerisque euismod varius mi, congue eget sed vestibulum, ornare cras sed nec.</p>
-                                    <div className="consultation-list">
-                                        <ul className="list-wrap">
-                                            <li>
-                                                <h6 className="title">12X</h6>
-                                                <p>Faster Order <span>Processing</span></p>
-                                            </li>
-                                            <li>
-                                                <h6 className="title">99%</h6>
-                                                <p>Processing <span>Accuracy</span></p>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-5">
-                                <div className="consultation-form-wrap">
-                                    <h4 className="title">Free Consultation</h4>
-                                    <form action="#">
-                                        <div className="form-grp">
-                                            <input type="text" placeholder="Name" />
-                                        </div>
-                                        <div className="form-grp">
-                                            <input type="email" placeholder="Email Address" />
-                                        </div>
-                                        <div className="form-grp">
-                                            <input type="text" placeholder="Phone Number" />
-                                        </div>
-                                        <div className="form-grp">
-                                            <select id="shortBy" name="select" className="form-select" aria-label="Default select example">
-                                                <option value>Subject</option>
-                                                <option>Subject One</option>
-                                                <option>Subject Two</option>
-                                                <option>Subject Three</option>
-                                                <option>Subject Four</option>
-                                            </select>
-                                        </div>
-                                        <button className="btn" type="submit">Consultation</button>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="consultation-shape-wrap">
-                        <img src="/assets/img/images/consultation_shape01.png" alt="" className="shape-one ribbonRotate" />
-                        <img src="/assets/img/images/consultation_shape02.png" alt="" className="shape-two float-bob-x" />
-                    </div>
-                </section>
-                {/* consultation-area-end */}
+                
                 {/* services-area */}
                 <section className="inner-services-area pt-110 pb-100">
                     <div className="container">
                         <div className="row justify-content-center">
                             <div className="col-lg-6">
                                 <div className="section-title title-style-two text-center mb-60">
-                                    <span className="sub-title">Graphic Service</span>
-                                    <h2 className="title">Creative  Branding Design</h2>
+                                    <span className="sub-title">Nos Services</span>
+                                    <h2 className="title">Des Solutions Numériques sur Mesure</h2>
                                 </div>
                             </div>
                         </div>
@@ -318,8 +258,8 @@ export default function AboutUs() {
                                             <img src="/assets/img/icon/inner_services_icon01.png" alt="" />
                                         </div>
                                         <div className="services-content-four">
-                                            <h2 className="title"><Link href="/services-details">Advertising</Link></h2>
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                            <h2 className="title"><Link href="/services-details">Développement Web</Link></h2>
+                                            <p>Des sites web modernes, interactifs et entièrement personnalisés, répondant à vos besoins spécifiques.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -329,8 +269,8 @@ export default function AboutUs() {
                                             <img src="/assets/img/icon/inner_services_icon02.png" alt="" />
                                         </div>
                                         <div className="services-content-four">
-                                            <h2 className="title"><Link href="/services-details">Development</Link></h2>
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                            <h2 className="title"><Link href="/services-details">Développment Mobile</Link></h2>
+                                            <p>Crée des apps innovantes et conviviales, sur les plateformes iOS et Android.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -340,8 +280,8 @@ export default function AboutUs() {
                                             <img src="/assets/img/icon/inner_services_icon03.png" alt="" />
                                         </div>
                                         <div className="services-content-four">
-                                            <h2 className="title"><Link href="/services-details">Branding</Link></h2>
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                            <h2 className="title"><Link href="/services-details">Social Média</Link></h2>
+                                            <p>Maximiser votre présence en ligne, à atteindre votre audience cible et à stimuler l'engagement...</p>
                                         </div>
                                     </div>
                                 </div>
@@ -351,8 +291,8 @@ export default function AboutUs() {
                                             <img src="/assets/img/icon/inner_services_icon04.png" alt="" />
                                         </div>
                                         <div className="services-content-four">
-                                            <h2 className="title"><Link href="/services-details">Product Design</Link></h2>
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                            <h2 className="title"><Link href="/services-details">Marketing digital</Link></h2>
+                                            <p>Expertise stratégique et créative pour promouvoir votre entreprise, générer du trafic qualifié.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -362,8 +302,8 @@ export default function AboutUs() {
                                             <img src="/assets/img/icon/inner_services_icon05.png" alt="" />
                                         </div>
                                         <div className="services-content-four">
-                                            <h2 className="title"><Link href="/services-details">Software</Link></h2>
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                            <h2 className="title"><Link href="/services-details">Sécurité informatique</Link></h2>
+                                            <p>Assurer la protection de vos données sensibles, la prévention des attaques et la mise en place de mesures de sécurité.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -373,8 +313,8 @@ export default function AboutUs() {
                                             <img src="/assets/img/icon/inner_services_icon06.png" alt="" />
                                         </div>
                                         <div className="services-content-four">
-                                            <h2 className="title"><Link href="/services-details">Marketing</Link></h2>
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                            <h2 className="title"><Link href="/services-details">Identité visuelle</Link></h2>
+                                            <p>Crée des designs uniques et percutants qui captent l'essence de votre marque.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -384,8 +324,8 @@ export default function AboutUs() {
                                             <img src="/assets/img/icon/inner_services_icon07.png" alt="" />
                                         </div>
                                         <div className="services-content-four">
-                                            <h2 className="title"><Link href="/services-details">Cinematography</Link></h2>
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                            <h2 className="title"><Link href="/services-details">Consulting Digital</Link></h2>
+                                            <p>Des conseils stratégiques personnalisés pour vous aider à naviguer dans le paysage numérique en constante évolution.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -395,8 +335,8 @@ export default function AboutUs() {
                                             <img src="/assets/img/icon/inner_services_icon08.png" alt="" />
                                         </div>
                                         <div className="services-content-four">
-                                            <h2 className="title"><Link href="/services-details">Strategy Services</Link></h2>
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                            <h2 className="title"><Link href="/services-details">SEO</Link></h2>
+                                            <p>Optimiser votre visibilité en ligne, et d'augmenter votre classement dans les moteurs de recherche.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -405,81 +345,16 @@ export default function AboutUs() {
                     </div>
                 </section>
                 {/* services-area-end */}
-                {/* success-area */}
-                <section className="success-area pb-120">
-                    <div className="container">
-                        <div className="row align-items-center">
-                            <div className="col-lg-6 order-0 order-lg-2">
-                                <div className="success-img">
-                                    <img src="/assets/img/images/success_img.png" alt="" />
-                                </div>
-                            </div>
-                            <div className="col-lg-6">
-                                <div className="success-content">
-                                    <div className="section-title title-style-two mb-30">
-                                        <span className="sub-title">Company Success</span>
-                                        <h2 className="title">A Company’s Success is An Ongoing Stream of Happiness</h2>
-                                    </div>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
-                                    <div className="success-list">
-                                        <ul className="list-wrap">
-                                            <li>
-                                                <div className="content">
-                                                    <img src="/assets/img/icon/success_icon01.png" alt="" />
-                                                    <span>App Design 85%</span>
-                                                </div>
-                                                <div className="progress">
-                                                    <div className="progress-bar" role="progressbar" style={{ width: '85%' }} aria-valuenow={85} aria-valuemin={0} aria-valuemax={100} />
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div className="content">
-                                                    <img src="/assets/img/icon/success_icon02.png" alt="" />
-                                                    <span>Website Design 75%</span>
-                                                </div>
-                                                <div className="progress">
-                                                    <div className="progress-bar" role="progressbar" style={{ width: '75%' }} aria-valuenow={75} aria-valuemin={0} aria-valuemax={100} />
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div className="content">
-                                                    <img src="/assets/img/icon/success_icon03.png" alt="" />
-                                                    <span>Product Design 95%</span>
-                                                </div>
-                                                <div className="progress">
-                                                    <div className="progress-bar" role="progressbar" style={{ width: '95%' }} aria-valuenow={95} aria-valuemin={0} aria-valuemax={100} />
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div className="content">
-                                                    <img src="/assets/img/icon/success_icon04.png" alt="" />
-                                                    <span>Development 99%</span>
-                                                </div>
-                                                <div className="progress">
-                                                    <div className="progress-bar" role="progressbar" style={{ width: '99%' }} aria-valuenow={99} aria-valuemin={0} aria-valuemax={100} />
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="success-shape-wrap">
-                        <img src="/assets/img/images/success_shape01.png" alt="" />
-                        <img src="/assets/img/images/success_shape02.png" alt="" />
-                    </div>
-                </section>
-                {/* success-area-end */}
+                
                 {/* history-area */}
                 <section className="history-area">
                     <div className="container">
                         <div className="row justify-content-center">
                             <div className="col-xl-6 col-lg-8">
                                 <div className="section-title white-title text-center mb-45">
-                                    <span className="sub-title">Our Company</span>
-                                    <h2 className="title">Company History</h2>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+                                    <span className="sub-title">Notre Agence</span>
+                                    <h2 className="title">MetaZ France</h2>
+                                    <p>Une agence de développement créative et innovante, spécialisée dans la création de solutions numériques sur mesure qui propulsent les marques vers de nouveaux horizons numériques.</p>
                                 </div>
                             </div>
                         </div>
@@ -490,13 +365,12 @@ export default function AboutUs() {
                             <div className="row g-0 justify-content-end">
                                 <div className="col-lg-6">
                                     <div className="history-content">
-                                        <h2 className="title">The Intention was to Establish The Company</h2>
-                                        <p>Lorem ipsum dolor sit amet, sed nulla ante amet, elementum tincidunt arcu sed laoreet, natoque ac eget imperdiet.
-                                            Ac scelerisque nibh dolores consectetuer, nulla aptent est pede. Scelerisque euismod varius mi,</p>
+                                        <h2 className="title">L'Art de la Transformation Numérique</h2>
+                                        <p>Nous sommes passionnés par la création de solutions technologiques qui transforment les idées en réalité. Notre approche axée sur l'innovation, associée à notre expertise technique et notre engagement envers l'excellence, nous permet de fournir des résultats exceptionnels à nos clients, en leur offrant une présence en ligne puissante et une expérience utilisateur immersive.</p>
                                         <ul className="list-wrap">
-                                            <li><i className="far fa-check" />Everyone can design at low cost</li>
-                                            <li><i className="far fa-check" />Designing in a different way</li>
-                                            <li><i className="far fa-check" />Our designs sill be world wide best designs</li>
+                                            <li><i className="far fa-check" />Expertise Technique</li>
+                                            <li><i className="far fa-check" />Innovation et Créativité</li>
+                                            <li><i className="far fa-check" />Engagement envers la Satisfaction Client</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -512,28 +386,28 @@ export default function AboutUs() {
                                     <span className="dot pulse-three" />
                                     <div className="content">
                                         <h5 className="title">2020</h5>
-                                        <p>January 14 th</p>
+                                        <p>La création</p>
                                     </div>
                                 </li>
                                 <li className="wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1.5s">
                                     <span className="dot pulse-four" />
                                     <div className="content">
                                         <h5 className="title">2021</h5>
-                                        <p>January 14 th</p>
+                                        <p>1ére award</p>
                                     </div>
                                 </li>
                                 <li className="wow fadeInDown" data-wow-delay=".2s" data-wow-duration="1.5s">
                                     <span className="dot pulse-five" />
                                     <div className="content">
                                         <h5 className="title">2022</h5>
-                                        <p>January 14 th</p>
+                                        <p>100% satisfaction</p>
                                     </div>
                                 </li>
                                 <li className="wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1.5s">
                                     <span className="dot pulse-six" />
                                     <div className="content">
                                         <h5 className="title">{new Date().getFullYear()}</h5>
-                                        <p>January 14 th</p>
+                                        <p>+15 Nouvelle technologies</p>
                                     </div>
                                 </li>
                             </ul>
@@ -551,7 +425,7 @@ export default function AboutUs() {
                         <div className="row align-items-center">
                             <div className="col-md-8">
                                 <div className="section-title title-style-two mb-45">
-                                    <h2 className="title">What Our Client’s Say</h2>
+                                    <h2 className="title">Ce que disent nos clients</h2>
                                 </div>
                             </div>
                             <div className="col-md-4">
@@ -625,7 +499,7 @@ export default function AboutUs() {
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
-                                <span className="title">We are Already Build Solution for...</span>
+                                <span className="title">Nos clients à ce jour...</span>
                             </div>
                         </div>
                         <div className="row brand-active">
