@@ -28,12 +28,13 @@ export default function Header({ scroll, headercls }) {
                                                 <li><Link href="/about-us">Agence</Link></li>
                                                 <li className="menu-item-has-children"><Link href="/#">Nos services</Link>
                                                     <ul className="sub-menu">
-                                                        <li><Link href="/about-me">Développement Web & Mobile</Link></li>
-                                                        <li><Link href="/team">Social Média</Link></li>
-                                                        <li><Link href="/team-details">Marketing digital</Link></li>
-                                                        <li><Link href="/project-details">Sécurité informatique</Link></li>
-                                                        <li><Link href="/services-details">Identité visuelle</Link></li>
-                                                        <li><Link href="/contact">Consulting Digital</Link></li>
+                                                        <li><Link href="/services/dev-web">Développement Web</Link></li>
+                                                        <li><Link href="/services/dev-mobile">Mobile App</Link></li>
+                                                        <li><Link href="/services/audio-visuel">Audiovisuel</Link></li>
+                                                        <li><Link href="/services/social-media">Social medial</Link></li>
+                                                        <li><Link href="/services/identite-visuel">Identité visuelle</Link></li>
+                                                        <li><Link href="/services/marketing-digital">Marketing Digital</Link></li>
+                                                        <li><Link href="/services/seo-sea">SEO/SEA</Link></li>
                                                     </ul>
                                                 </li>
                                                 <li><Link href="/realisations">Réalisations</Link>
@@ -50,7 +51,7 @@ export default function Header({ scroll, headercls }) {
     </span>
    <span class="button-text">Contact</span>
   </button></Link>
-                                                <li className="header-btn"><Link href="contact" className="btn">Obtenir votre devis <span /></Link></li>
+                                                <li className="header-btn"><Link href="/contact" className="btn">Obtenir votre devis <span /></Link></li>
                                             </ul>
                                         </div>
                                     </nav>

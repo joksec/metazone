@@ -18,8 +18,8 @@ export default function Agency1() {
                                     <h2 className="title">MetaZ <span>.</span> Révélez le pouvoir du digital</h2>
                                 </div>
                                 <p className="info-one">Explorez un monde d'opportunités numériques avec notre agence innovante.</p>
-                                <p className="info-two">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
-                                <p className="info-two">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+                                <p className="info-two">Nous aidons nos clients à atteindre leurs objectifs en utilisant les dernières technologies et les meilleures pratiques du secteur.</p>
+                                <p className="info-two">Notre équipe de professionnels passionnés travaille avec vous pour comprendre vos besoins et créer des solutions personnalisées qui répondent à vos attentes.</p>
                                 <Link href="/about-us" className="btn2">Lire plus <span /></Link>
                             </div>
                         </div>

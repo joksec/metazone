@@ -79,10 +79,8 @@ export default function Testimonial3() {
                                                 <img src="/assets/img/images/testimonial_avatar01.png" alt="" />
                                             </div>
                                             <div className="testimonial-content-three">
-                                                <h4 className="title">James Botosh</h4>
-                                                <span>Product Designer</span>
-                                                <p>“We seek to get involved early in the design phase so that we can manage the project more
-                                                    efficiently, provide effective building solutions”</p>
+                                                <h4 className="title">Jean Dupont</h4>
+                                                <p>“J'ai travaillé avec l'agence MetaZ pour créer un site web pour mon entreprise. Le résultat final est excellent et j'ai reçu de nombreux compliments de la part de mes clients.”</p>
                                             </div>
                                         </div>
                                     </SwiperSlide>
@@ -92,10 +90,8 @@ export default function Testimonial3() {
                                                 <img src="/assets/img/images/testimonial_avatar02.png" alt="" />
                                             </div>
                                             <div className="testimonial-content-three">
-                                                <h4 className="title">James Botosh</h4>
-                                                <span>Product Designer</span>
-                                                <p>“We seek to get involved early in the design phase so that we can manage the project more
-                                                    efficiently, provide effective building solutions”</p>
+                                                <h4 className="title">Pierre Martin</h4>
+                                                <p>“Je suis tombé amoureux de mon nouveau site web ! MetaZ m'a proposé une solution rapide et efficace pour répondre à mes besoins.”</p>
                                             </div>
                                         </div>
                                     </SwiperSlide>
@@ -105,10 +101,8 @@ export default function Testimonial3() {
                                                 <img src="/assets/img/images/testimonial_avatar03.png" alt="" />
                                             </div>
                                             <div className="testimonial-content-three">
-                                                <h4 className="title">James Botosh</h4>
-                                                <span>Product Designer</span>
-                                                <p>“We seek to get involved early in the design phase so that we can manage the project more
-                                                    efficiently, provide effective building solutions”</p>
+                                                <h4 className="title">Jacques Durand</h4>
+                                                <p>“"J'ai travaillé avec l'agence MetaZ pour créer une application mobile pour mon entreprise. Leur équipe a été très compétente et a su comprendre mes besoins.”</p>
                                             </div>
                                         </div>
                                     </SwiperSlide>
@@ -118,10 +112,8 @@ export default function Testimonial3() {
                                                 <img src="/assets/img/images/testimonial_avatar01.png" alt="" />
                                             </div>
                                             <div className="testimonial-content-three">
-                                                <h4 className="title">James Botosh</h4>
-                                                <span>Product Designer</span>
-                                                <p>“We seek to get involved early in the design phase so that we can manage the project more
-                                                    efficiently, provide effective building solutions”</p>
+                                                <h4 className="title">François Dubois</h4>
+                                                <p>“Je suis tombé amoureux de mon nouvelle application mobile ! L'agence MetaZ m'a proposé une solution rapide et efficace pour répondre à mes besoins.”</p>
                                             </div>
                                         </div>
                                     </SwiperSlide>

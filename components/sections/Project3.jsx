@@ -78,7 +78,7 @@ export default function Project3() {
                                             <button className={activeIndex === 3 ? "nav-link active" : "nav-link"}>Site Web</button>
                                         </li>
                                         <li className="nav-item" onClick={() => handleOnClick(4)}>
-                                            <button className={activeIndex === 4 ? "nav-link active" : "nav-link"}>Autre</button>
+                                            <button className={activeIndex === 4 ? "nav-link active" : "nav-link"}>Audio Visuel</button>
                                         </li>
                                     </ul>
                                 </div>
@@ -91,59 +91,148 @@ export default function Project3() {
                                                 <SwiperSlide>
                                                     <div className="project-item-three">
                                                         <div className="project-content-three">
-                                                            <h2 className="title"><Link href="/project-details">Logo X</Link></h2>
-                                                            <p>At Collax we specialize in designing, building, shipping...</p>
+                                                            <h2 className="title">Logo</h2>
                                                         </div>
                                                         <div className="project-thumb-three">
-                                                            <Link href="/project-details"><img src="/assets/img/project/h3_project_img01.jpg" alt="" /></Link>
+                                                                 <img src="/assets/img/project/identite-visuel/logo-Finderz.jpg" alt="" />
+                                                         </div>
+                                                        <div className="project-details-btn">
+                                                            <Link href="/realisations">Voir plus</Link>
+                                                        </div>
+                                                    </div>
+                                                </SwiperSlide>
+                                                
+                                                <SwiperSlide>
+                                                    <div className="project-item-three">
+                                                        <div className="project-content-three">
+                                                            <h2 className="title">Logo</h2>
+                                                         </div>
+                                                        <div className="project-thumb-three">
+                                                            <img src="/assets/img/project/identite-visuel/Logo@4x.png" alt="" />
                                                         </div>
                                                         <div className="project-details-btn">
-                                                            <Link href="/project-details">Voir plus</Link>
+                                                            <Link href="/realisations">Voir plus</Link>
                                                         </div>
                                                     </div>
                                                 </SwiperSlide>
                                                 <SwiperSlide>
                                                     <div className="project-item-three">
                                                         <div className="project-content-three">
-                                                            <h2 className="title"><Link href="/project-details">Logo X</Link></h2>
-                                                            <p>At Collax we specialize in designing, building, shipping...</p>
-                                                        </div>
+                                                            <h2 className="title">Logo</h2>
+                                                         </div>
                                                         <div className="project-thumb-three">
-                                                            <Link href="/project-details"><img src="/assets/img/project/h3_project_img02.jpg" alt="" /></Link>
+                                                            <img src="/assets/img/project/identite-visuel/visuel-logo-lybertyx.jpg" alt="" />
                                                         </div>
                                                         <div className="project-details-btn">
-                                                            <Link href="/project-details">Voir plus</Link>
+                                                            <Link href="/realisations">Voir plus</Link>
                                                         </div>
                                                     </div>
                                                 </SwiperSlide>
                                                 <SwiperSlide>
                                                     <div className="project-item-three">
                                                         <div className="project-content-three">
-                                                            <h2 className="title"><Link href="/project-details">Charte graphique</Link></h2>
-                                                            <p>At Collax we specialize in designing, building, shipping...</p>
-                                                        </div>
+                                                            <h2 className="title">Logo</h2>
+                                                         </div>
                                                         <div className="project-thumb-three">
-                                                            <Link href="/project-details"><img src="/assets/img/project/h3_project_img03.jpg" alt="" /></Link>
+                                                            <img src="/assets/img/project/identite-visuel/visuel-logo-Nina.jpg" alt="" />
                                                         </div>
                                                         <div className="project-details-btn">
-                                                            <Link href="/project-details">Voir plus</Link>
+                                                            <Link href="/realisations">Voir plus</Link>
                                                         </div>
                                                     </div>
                                                 </SwiperSlide>
                                                 <SwiperSlide>
                                                     <div className="project-item-three">
                                                         <div className="project-content-three">
-                                                            <h2 className="title"><Link href="/project-details">Poster Y</Link></h2>
-                                                            <p>At Collax we specialize in designing, building, shipping...</p>
-                                                        </div>
+                                                            <h2 className="title">Logo</h2>
+                                                         </div>
                                                         <div className="project-thumb-three">
-                                                            <Link href="/project-details"><img src="/assets/img/project/h3_project_img04.jpg" alt="" /></Link>
+                                                            <img src="/assets/img/project/identite-visuel/visuel-logo-W-Health.jpg" alt="" />
                                                         </div>
                                                         <div className="project-details-btn">
-                                                            <Link href="/project-details">Voir plus</Link>
+                                                            <Link href="/realisations">Voir plus</Link>
                                                         </div>
                                                     </div>
                                                 </SwiperSlide>
+                                                <SwiperSlide>
+                                                    <div className="project-item-three">
+                                                        <div className="project-content-three">
+                                                            <h2 className="title">Carte visite</h2>
+                                                         </div>
+                                                        <div className="project-thumb-three">
+                                                            <img src="/assets/img/project/identite-visuel/carte-visite.jpg" alt="" />
+                                                        </div>
+                                                        <div className="project-details-btn">
+                                                            <Link href="/realisations">Voir plus</Link>
+                                                        </div>
+                                                    </div>
+                                                </SwiperSlide>
+                                                <SwiperSlide>
+                                                    <div className="project-item-three">
+                                                        <div className="project-content-three">
+                                                            <h2 className="title">Carte visite</h2>
+                                                         </div>
+                                                        <div className="project-thumb-three">
+                                                            <img src="/assets/img/project/identite-visuel/carte-visite-1.jpg" alt="" />
+                                                        </div>
+                                                        <div className="project-details-btn">
+                                                            <Link href="/realisations">Voir plus</Link>
+                                                        </div>
+                                                    </div>
+                                                </SwiperSlide>
+                                                <SwiperSlide>
+                                                    <div className="project-item-three">
+                                                        <div className="project-content-three">
+                                                            <h2 className="title">Brochure</h2>
+                                                         </div>
+                                                        <div className="project-thumb-three">
+                                                            <img src="/assets/img/project/identite-visuel/Brochure-visuel.jpg" alt="" />
+                                                        </div>
+                                                        <div className="project-details-btn">
+                                                            <Link href="/realisations">Voir plus</Link>
+                                                        </div>
+                                                    </div>
+                                                </SwiperSlide>
+                                                <SwiperSlide>
+                                                    <div className="project-item-three">
+                                                        <div className="project-content-three">
+                                                            <h2 className="title">Flyer</h2>
+                                                         </div>
+                                                        <div className="project-thumb-three">
+                                                            <img src="/assets/img/project/identite-visuel/flyer2A.jpg" alt="" />
+                                                        </div>
+                                                        <div className="project-details-btn">
+                                                            <Link href="/realisations">Voir plus</Link>
+                                                        </div>
+                                                    </div>
+                                                </SwiperSlide>
+                                                <SwiperSlide>
+                                                    <div className="project-item-three">
+                                                        <div className="project-content-three">
+                                                            <h2 className="title">Illustration</h2>
+                                                         </div>
+                                                        <div className="project-thumb-three">
+                                                            <img src="/assets/img/project/identite-visuel/illustration-2.jpg" alt="" />
+                                                        </div>
+                                                        <div className="project-details-btn">
+                                                            <Link href="/realisations">Voir plus</Link>
+                                                        </div>
+                                                    </div>
+                                                </SwiperSlide>
+                                                <SwiperSlide>
+                                                    <div className="project-item-three">
+                                                        <div className="project-content-three">
+                                                            <h2 className="title">Illustartion</h2>
+                                                         </div>
+                                                        <div className="project-thumb-three">
+                                                            <img src="/assets/img/project/identite-visuel/Illustration-trocmer-visuel2.jpg" alt="" />
+                                                        </div>
+                                                        <div className="project-details-btn">
+                                                            <Link href="/realisations">Voir plus</Link>
+                                                        </div>
+                                                    </div>
+                                                </SwiperSlide>
+                                                
                                             </Swiper>
                                         </div>
                                     </div>
@@ -153,59 +242,43 @@ export default function Project3() {
                                                 <SwiperSlide>
                                                     <div className="project-item-three">
                                                         <div className="project-content-three">
-                                                            <h2 className="title"><Link href="/project-details">Hosting Website Design</Link></h2>
-                                                            <p>At Collax we specialize in designing, building, shipping...</p>
-                                                        </div>
+                                                            <h2 className="title">Mobile App</h2>
+                                                         </div>
                                                         <div className="project-thumb-three">
-                                                            <Link href="/project-details"><img src="/assets/img/project/h3_project_img02.jpg" alt="" /></Link>
+                                                            <img src="/assets/img/project/mobile/App_Finderz.jpg" alt="" />
                                                         </div>
                                                         <div className="project-details-btn">
-                                                            <Link href="/project-details">View Case Studies</Link>
+                                                            <Link href="/realisations">Mobile App</Link>
                                                         </div>
                                                     </div>
                                                 </SwiperSlide>
                                                 <SwiperSlide>
                                                     <div className="project-item-three">
                                                         <div className="project-content-three">
-                                                            <h2 className="title"><Link href="/project-details">Hosting Website Design</Link></h2>
-                                                            <p>At Collax we specialize in designing, building, shipping...</p>
-                                                        </div>
+                                                            <h2 className="title">Mobile App</h2>
+                                                         </div>
                                                         <div className="project-thumb-three">
-                                                            <Link href="/project-details"><img src="/assets/img/project/h3_project_img01.jpg" alt="" /></Link>
+                                                            <img src="/assets/img/project/mobile/App_Amitigo2.jpg" alt="" />
                                                         </div>
                                                         <div className="project-details-btn">
-                                                            <Link href="/project-details">View Case Studies</Link>
+                                                            <Link href="/realisations">Voir plus</Link>
                                                         </div>
                                                     </div>
                                                 </SwiperSlide>
                                                 <SwiperSlide>
                                                     <div className="project-item-three">
                                                         <div className="project-content-three">
-                                                            <h2 className="title"><Link href="/project-details">Hosting Website Design</Link></h2>
-                                                            <p>At Collax we specialize in designing, building, shipping...</p>
-                                                        </div>
+                                                            <h2 className="title">Mobile App</h2>
+                                                         </div>
                                                         <div className="project-thumb-three">
-                                                            <Link href="/project-details"><img src="/assets/img/project/h3_project_img03.jpg" alt="" /></Link>
+                                                            <img src="/assets/img/project/mobile/App_GuideDuGolfe.jpg" alt="" />
                                                         </div>
                                                         <div className="project-details-btn">
-                                                            <Link href="/project-details">View Case Studies</Link>
+                                                            <Link href="/realisations">Mobile App</Link>
                                                         </div>
                                                     </div>
                                                 </SwiperSlide>
-                                                <SwiperSlide>
-                                                    <div className="project-item-three">
-                                                        <div className="project-content-three">
-                                                            <h2 className="title"><Link href="/project-details">Hosting Website Design</Link></h2>
-                                                            <p>At Collax we specialize in designing, building, shipping...</p>
-                                                        </div>
-                                                        <div className="project-thumb-three">
-                                                            <Link href="/project-details"><img src="/assets/img/project/h3_project_img04.jpg" alt="" /></Link>
-                                                        </div>
-                                                        <div className="project-details-btn">
-                                                            <Link href="/project-details">View Case Studies</Link>
-                                                        </div>
-                                                    </div>
-                                                </SwiperSlide>
+                                                
                                             </Swiper>
                                         </div>
                                     </div>
@@ -215,56 +288,52 @@ export default function Project3() {
                                                 <SwiperSlide>
                                                     <div className="project-item-three">
                                                         <div className="project-content-three">
-                                                            <h2 className="title"><Link href="/project-details">Hosting Website Design</Link></h2>
-                                                            <p>At Collax we specialize in designing, building, shipping...</p>
-                                                        </div>
+                                                            <h2 className="title">Web Site</h2>
+                                                         </div>
                                                         <div className="project-thumb-three">
-                                                            <Link href="/project-details"><img src="/assets/img/project/h3_project_img01.jpg" alt="" /></Link>
+                                                            <img src="/assets/img/project/web/Awakearth-visuel.jpg" alt="" />
                                                         </div>
                                                         <div className="project-details-btn">
-                                                            <Link href="/project-details">View Case Studies</Link>
+                                                            <Link href="/realisations">Voir plus</Link>
                                                         </div>
                                                     </div>
                                                 </SwiperSlide>
                                                 <SwiperSlide>
                                                     <div className="project-item-three">
                                                         <div className="project-content-three">
-                                                            <h2 className="title"><Link href="/project-details">Hosting Website Design</Link></h2>
-                                                            <p>At Collax we specialize in designing, building, shipping...</p>
-                                                        </div>
+                                                            <h2 className="title">Web Site</h2>
+                                                         </div>
                                                         <div className="project-thumb-three">
-                                                            <Link href="/project-details"><img src="/assets/img/project/h3_project_img02.jpg" alt="" /></Link>
+                                                        <img src="/assets/img/project/web/Finderz visuel.jpg" alt="" />
                                                         </div>
                                                         <div className="project-details-btn">
-                                                            <Link href="/project-details">View Case Studies</Link>
+                                                            <Link href="/realisations">Voir plus</Link>
                                                         </div>
                                                     </div>
                                                 </SwiperSlide>
                                                 <SwiperSlide>
                                                     <div className="project-item-three">
                                                         <div className="project-content-three">
-                                                            <h2 className="title"><Link href="/project-details">Hosting Website Design</Link></h2>
-                                                            <p>At Collax we specialize in designing, building, shipping...</p>
-                                                        </div>
+                                                            <h2 className="title">Web Site</h2>
+                                                         </div>
                                                         <div className="project-thumb-three">
-                                                            <Link href="/project-details"><img src="/assets/img/project/h3_project_img03.jpg" alt="" /></Link>
+                                                        <img src="/assets/img/project/web/Page-guyanes.jpg" alt="" />
                                                         </div>
                                                         <div className="project-details-btn">
-                                                            <Link href="/project-details">View Case Studies</Link>
+                                                            <Link href="/realisations">Voir plus</Link>
                                                         </div>
                                                     </div>
                                                 </SwiperSlide>
                                                 <SwiperSlide>
                                                     <div className="project-item-three">
                                                         <div className="project-content-three">
-                                                            <h2 className="title"><Link href="/project-details">Hosting Website Design</Link></h2>
-                                                            <p>At Collax we specialize in designing, building, shipping...</p>
-                                                        </div>
+                                                            <h2 className="title">Web Site</h2>
+                                                         </div>
                                                         <div className="project-thumb-three">
-                                                            <Link href="/project-details"><img src="/assets/img/project/h3_project_img04.jpg" alt="" /></Link>
+                                                        <img src="/assets/img/project/web/Vitefait-visuel.jpg" alt="" />
                                                         </div>
                                                         <div className="project-details-btn">
-                                                            <Link href="/project-details">View Case Studies</Link>
+                                                            <Link href="/realisations">Voir plus</Link>
                                                         </div>
                                                     </div>
                                                 </SwiperSlide>
@@ -277,59 +346,43 @@ export default function Project3() {
                                                 <SwiperSlide>
                                                     <div className="project-item-three">
                                                         <div className="project-content-three">
-                                                            <h2 className="title"><Link href="/project-details">Hosting Website Design</Link></h2>
-                                                            <p>At Collax we specialize in designing, building, shipping...</p>
-                                                        </div>
+                                                            <h2 className="title">3D Visuel</h2>
+                                                         </div>
                                                         <div className="project-thumb-three">
-                                                            <Link href="/project-details"><img src="/assets/img/project/h3_project_img01.jpg" alt="" /></Link>
+                                                           <img src="/assets/img/project/audio-visuel/3D-visuel.jpg" alt="" />
                                                         </div>
                                                         <div className="project-details-btn">
-                                                            <Link href="/project-details">View Case Studies</Link>
+                                                            <Link href="/realisations">Voir</Link>
                                                         </div>
                                                     </div>
                                                 </SwiperSlide>
                                                 <SwiperSlide>
                                                     <div className="project-item-three">
                                                         <div className="project-content-three">
-                                                            <h2 className="title"><Link href="/project-details">Hosting Website Design</Link></h2>
-                                                            <p>At Collax we specialize in designing, building, shipping...</p>
-                                                        </div>
+                                                            <h2 className="title">3D Visuel</h2>
+                                                         </div>
                                                         <div className="project-thumb-three">
-                                                            <Link href="/project-details"><img src="/assets/img/project/h3_project_img02.jpg" alt="" /></Link>
+                                                            <img src="/assets/img/project/audio-visuel/Visuel_3D.jpg" alt="" />
                                                         </div>
                                                         <div className="project-details-btn">
-                                                            <Link href="/project-details">View Case Studies</Link>
+                                                            <Link href="/realisations">Voir</Link>
                                                         </div>
                                                     </div>
                                                 </SwiperSlide>
                                                 <SwiperSlide>
                                                     <div className="project-item-three">
                                                         <div className="project-content-three">
-                                                            <h2 className="title"><Link href="/project-details">Hosting Website Design</Link></h2>
-                                                            <p>At Collax we specialize in designing, building, shipping...</p>
-                                                        </div>
+                                                            <h2 className="title">Social Media</h2>
+                                                         </div>
                                                         <div className="project-thumb-three">
-                                                            <Link href="/project-details"><img src="/assets/img/project/h3_project_img03.jpg" alt="" /></Link>
+                                                            <img src="/assets/img/project/audio-visuel/social-media.jpg" alt="" />
                                                         </div>
                                                         <div className="project-details-btn">
-                                                            <Link href="/project-details">View Case Studies</Link>
+                                                            <Link href="/realisations">Voir</Link>
                                                         </div>
                                                     </div>
                                                 </SwiperSlide>
-                                                <SwiperSlide>
-                                                    <div className="project-item-three">
-                                                        <div className="project-content-three">
-                                                            <h2 className="title"><Link href="/project-details">Hosting Website Design</Link></h2>
-                                                            <p>At Collax we specialize in designing, building, shipping...</p>
-                                                        </div>
-                                                        <div className="project-thumb-three">
-                                                            <Link href="/project-details"><img src="/assets/img/project/h3_project_img04.jpg" alt="" /></Link>
-                                                        </div>
-                                                        <div className="project-details-btn">
-                                                            <Link href="/project-details">View Case Studies</Link>
-                                                        </div>
-                                                    </div>
-                                                </SwiperSlide>
+                                                
                                             </Swiper>
                                         </div>
                                     </div>

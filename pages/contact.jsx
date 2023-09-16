@@ -50,7 +50,7 @@ export default function Contact() {
                                                     </div>
                                                     <div className="content">
                                                         <h6 className="title">Adresse</h6>
-                                                        <p>Paris - 75003</p>
+                                                        <p>59 rue de Ponthieu 75008 Paris - France</p>
                                                     </div>
                                                 </div>
                                             </li>
@@ -72,7 +72,7 @@ export default function Contact() {
                                                     </div>
                                                     <div className="content">
                                                         <h6 className="title">Téléphone</h6>
-                                                        <Link href="tel:0123456789">+33 632883022</Link>
+                                                        <Link href="tel:0123456789">+33 7 56 88 39 67</Link>
                                                     </div>
                                                 </div>
                                             </li>

@@ -119,7 +119,7 @@ export default function AboutUs() {
                 {/* consultation-area-end */}
                 <Project2 />
                 {/* brand-area */}
-                <div className="brand-area pb-120">
+                <div className="brand-area pb-120 pt-120">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">

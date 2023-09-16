@@ -66,9 +66,9 @@ export default function Services3() {
                                         <img src="/assets/img/icon/ui.png" alt="" />
                                     </div>
                                     <div className="services-content-three">
-                                        <h3 className="title"><Link href="/services-details">UI/UX Design</Link></h3>
-                                        <p>Nous plaçons l'utilisateur au coeur de chaque projet, en créant des interfaces intuitives.</p>
-                                        <Link href="/services-details" className="link-btn">Savoir plus <i className="fal fa-chevron-right" /></Link>
+                                        <h3 className="title"><Link href="/services/dev-mobile">Développement Mobile</Link></h3>
+                                        <p>Nous plaçons l'utilisateur au coeur de chaque projet, en créant des apps intuitives.</p>
+                                        <Link href="/services/dev-mobile" className="link-btn">Savoir plus <i className="fal fa-chevron-right" /></Link>
                                     </div>
                                 </div>
                             </SwiperSlide>
@@ -78,9 +78,9 @@ export default function Services3() {
                                         <img src="/assets/img/icon/web.png" alt="" />
                                     </div>
                                     <div className="services-content-three">
-                                        <h3 className="title"><Link href="/services-details">Site Web</Link></h3>
+                                        <h3 className="title"><Link href="/services/dev-web">Développement Web</Link></h3>
                                         <p>Nous concevons des sites web qui marient esthétique et performance par les derniéres téchnologies.</p>
-                                        <Link href="/services-details" className="link-btn">Savoir plus <i className="fal fa-chevron-right" /></Link>
+                                        <Link href="/services/dev-web" className="link-btn">Savoir plus <i className="fal fa-chevron-right" /></Link>
                                     </div>
                                 </div>
                             </SwiperSlide>
@@ -90,9 +90,9 @@ export default function Services3() {
                                         <img src="/assets/img/icon/md.png" alt="" />
                                     </div>
                                     <div className="services-content-three">
-                                        <h3 className="title"><Link href="/services-details">Marketing Digital</Link></h3>
+                                        <h3 className="title"><Link href="/services/marketing-digital">Marketing Digital</Link></h3>
                                         <p>Nous offrons une panoplie de solutions de marketing digital taillées pour répondre à vos objectifs.</p>
-                                        <Link href="/services-details" className="link-btn">Savoir plus <i className="fal fa-chevron-right" /></Link>
+                                        <Link href="/services/marketing-digital" className="link-btn">Savoir plus <i className="fal fa-chevron-right" /></Link>
                                     </div>
                                 </div>
                             </SwiperSlide>
@@ -102,9 +102,9 @@ export default function Services3() {
                                         <img src="/assets/img/icon/ui.png" alt="" />
                                     </div>
                                     <div className="services-content-three">
-                                        <h3 className="title"><Link href="/services-details">SEO</Link></h3>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                        <Link href="/services-details" className="link-btn">Savoir plus <i className="fal fa-chevron-right" /></Link>
+                                        <h3 className="title"><Link href="/services/seo-sea">SEO/SEA</Link></h3>
+                                        <p>Notre service SEO/SEA est conçu pour vous aider à augmenter votre visibilité en ligne</p>
+                                        <Link href="/services/seo-sea" className="link-btn">Savoir plus <i className="fal fa-chevron-right" /></Link>
                                     </div>
                                 </div>
                             </SwiperSlide>
@@ -114,21 +114,34 @@ export default function Services3() {
                                         <img src="/assets/img/icon/web.png" alt="" />
                                     </div>
                                     <div className="services-content-three">
-                                        <h3 className="title"><Link href="/services-details">Social Media</Link></h3>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                        <Link href="/services-details" className="link-btn">Savoir plus <i className="fal fa-chevron-right" /></Link>
+                                        <h3 className="title"><Link href="/services/social-media">Social Media</Link></h3>
+                                        <p>Nous savons que les médias sociaux offrent un potentiel énorme pour engager votre public cible.</p>
+                                        <Link href="/services/social-media" className="link-btn">Savoir plus <i className="fal fa-chevron-right" /></Link>
                                     </div>
                                 </div>
                             </SwiperSlide>
+                            
                             <SwiperSlide>
                                 <div className="services-item-three">
                                     <div className="services-icon-three">
                                         <img src="/assets/img/icon/md.png" alt="" />
                                     </div>
                                     <div className="services-content-three">
-                                        <h3 className="title"><Link href="/services-details">Sécurité Informatique</Link></h3>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                        <Link href="/services-details" className="link-btn">Savoir plus <i className="fal fa-chevron-right" /></Link>
+                                        <h3 className="title"><Link href="/services/audio-visuel">Audiovisuel</Link></h3>
+                                        <p>Nous offrons une gamme complète de solutions audiovisuelles pour répondre à tous vos besoins</p>
+                                        <Link href="/services/audio-visuel" className="link-btn">Savoir plus <i className="fal fa-chevron-right" /></Link>
+                                    </div>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className="services-item-three">
+                                    <div className="services-icon-three">
+                                        <img src="/assets/img/icon/ui.png" alt="" />
+                                    </div>
+                                    <div className="services-content-three">
+                                        <h3 className="title"><Link href="/services/identite-visuel">Identité visuelle</Link></h3>
+                                        <p>Notre équipe est composée de designers expérimentés qui maîtrisent les dernières tendances du design.</p>
+                                        <Link href="/services/identite-visuel" className="link-btn">Savoir plus <i className="fal fa-chevron-right" /></Link>
                                     </div>
                                 </div>
                             </SwiperSlide>
