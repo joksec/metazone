@@ -13,14 +13,7 @@ export default function ServiceDetails() {
                 <div className="services-details-area pb-100">
                     <div className="container">
                         <div className="row justify-content-center">
-                            <div className="col-xl-8 col-lg-10">
-                                <div className="services-details-img text-center">
-                                    <img src="/assets/img/images/services_details_img.png" alt="" />
-                                </div>
-                                <div className="services-details-content text-center">
-                                    <p>Le marketing sur les réseaux sociaux est un aspect essentiel de toute stratégie digitale réussie. Chez MetaZ, nous savons que les médias sociaux offrent un potentiel énorme pour atteindre et engager votre public cible.</p>
-                                </div>
-                            </div>
+                             
                         </div>
                     </div>
                     <div className="services-details-shape">
@@ -35,7 +28,7 @@ export default function ServiceDetails() {
                     <div className="row align-items-center">
                         <div className="col-lg-6">
                             <div className="agency-img text-center">
-                                <img src="/assets/img/images/agency_img.png" alt="" />
+                                <img src="/assets/img/images/man.png" alt="" />
                             </div>
                         </div>
                         <div className="col-lg-6">

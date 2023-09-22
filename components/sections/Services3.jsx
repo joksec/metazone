@@ -63,7 +63,7 @@ export default function Services3() {
                             <SwiperSlide>
                                 <div className="services-item-three">
                                     <div className="services-icon-three">
-                                        <img src="/assets/img/icon/ui.png" alt="" />
+                                        <img src="/assets/img/icon/metaz-mobile.png" alt="" />
                                     </div>
                                     <div className="services-content-three">
                                         <h3 className="title"><Link href="/services/dev-mobile">Développement Mobile</Link></h3>
@@ -75,7 +75,7 @@ export default function Services3() {
                             <SwiperSlide>
                                 <div className="services-item-three">
                                     <div className="services-icon-three">
-                                        <img src="/assets/img/icon/web.png" alt="" />
+                                        <img src="/assets/img/icon/metaz-web.png" alt="" />
                                     </div>
                                     <div className="services-content-three">
                                         <h3 className="title"><Link href="/services/dev-web">Développement Web</Link></h3>
@@ -87,7 +87,7 @@ export default function Services3() {
                             <SwiperSlide>
                                 <div className="services-item-three">
                                     <div className="services-icon-three">
-                                        <img src="/assets/img/icon/md.png" alt="" />
+                                        <img src="/assets/img/icon/metaz-marketing-digital.png" alt="" />
                                     </div>
                                     <div className="services-content-three">
                                         <h3 className="title"><Link href="/services/marketing-digital">Marketing Digital</Link></h3>
@@ -99,7 +99,7 @@ export default function Services3() {
                             <SwiperSlide>
                                 <div className="services-item-three">
                                     <div className="services-icon-three">
-                                        <img src="/assets/img/icon/ui.png" alt="" />
+                                        <img src="/assets/img/icon/metaz-seo-sea.png" alt="" />
                                     </div>
                                     <div className="services-content-three">
                                         <h3 className="title"><Link href="/services/seo-sea">SEO/SEA</Link></h3>
@@ -111,7 +111,7 @@ export default function Services3() {
                             <SwiperSlide>
                                 <div className="services-item-three">
                                     <div className="services-icon-three">
-                                        <img src="/assets/img/icon/web.png" alt="" />
+                                        <img src="/assets/img/icon/metaz-social-media.png" alt="" />
                                     </div>
                                     <div className="services-content-three">
                                         <h3 className="title"><Link href="/services/social-media">Social Media</Link></h3>
@@ -124,7 +124,7 @@ export default function Services3() {
                             <SwiperSlide>
                                 <div className="services-item-three">
                                     <div className="services-icon-three">
-                                        <img src="/assets/img/icon/md.png" alt="" />
+                                        <img src="/assets/img/icon/metaz-audio-visuel.png" alt="" />
                                     </div>
                                     <div className="services-content-three">
                                         <h3 className="title"><Link href="/services/audio-visuel">Audiovisuel</Link></h3>
@@ -136,7 +136,7 @@ export default function Services3() {
                             <SwiperSlide>
                                 <div className="services-item-three">
                                     <div className="services-icon-three">
-                                        <img src="/assets/img/icon/ui.png" alt="" />
+                                        <img src="/assets/img/icon/metaz-identite-visuel.png" alt="" />
                                     </div>
                                     <div className="services-content-three">
                                         <h3 className="title"><Link href="/services/identite-visuel">Identité visuelle</Link></h3>

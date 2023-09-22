@@ -14,12 +14,8 @@ export default function ServiceDetails() {
                     <div className="container">
                         <div className="row justify-content-center">
                             <div className="col-xl-8 col-lg-10">
-                                <div className="services-details-img text-center">
-                                    <img src="/assets/img/images/services_details_img.png" alt="" />
-                                </div>
-                                <div className="services-details-content text-center">
-                                    <p>Créez une présence en ligne puissante et fonctionnelle grâce à notre service de développement web sur mesure,qui répondent aux besoins spécifiques de votre entreprise.</p>
-                                </div>
+                                 
+                                 
                             </div>
                         </div>
                     </div>
@@ -75,7 +71,7 @@ export default function ServiceDetails() {
                                 <div className="col-xl-4">
                                     <div className="tools-item">
                                         <div className="tools-icon">
-                                            <img src="/assets/img/icon/tools_icon01.png" alt="" />
+                                            <img src="/assets/img/icon/s1.png" alt="" />
                                         </div>
                                         <div className="tools-content">
                                             <h3 className="title">Site vitrine</h3>
@@ -86,7 +82,7 @@ export default function ServiceDetails() {
                                 <div className="col-xl-4">
                                     <div className="tools-item">
                                         <div className="tools-icon">
-                                            <img src="/assets/img/icon/tools_icon02.png" alt="" />
+                                            <img src="/assets/img/icon/s2.png" alt="" />
                                         </div>
                                         <div className="tools-content">
                                             <h3 className="title">Site e-commerce</h3>
@@ -97,7 +93,7 @@ export default function ServiceDetails() {
                                 <div className="col-xl-4">
                                     <div className="tools-item">
                                         <div className="tools-icon">
-                                            <img src="/assets/img/icon/tools_icon03.png" alt="" />
+                                            <img src="/assets/img/icon/s3.png" alt="" />
                                         </div>
                                         <div className="tools-content">
                                             <h3 className="title">Site statique</h3>
@@ -108,7 +104,7 @@ export default function ServiceDetails() {
                                 <div className="col-xl-4">
                                     <div className="tools-item">
                                         <div className="tools-icon">
-                                            <img src="/assets/img/icon/tools_icon04.png" alt="" />
+                                            <img src="/assets/img/icon/s4.png" alt="" />
                                         </div>
                                         <div className="tools-content">
                                             <h3 className="title">Site sur mesure</h3>
@@ -119,7 +115,7 @@ export default function ServiceDetails() {
                                 <div className="col-xl-4">
                                     <div className="tools-item">
                                         <div className="tools-icon">
-                                            <img src="/assets/img/icon/tools_icon05.png" alt="" />
+                                            <img src="/assets/img/icon/s5.png" alt="" />
                                         </div>
                                         <div className="tools-content">
                                             <h3 className="title">CRM</h3>
@@ -130,7 +126,7 @@ export default function ServiceDetails() {
                                 <div className="col-xl-4">
                                     <div className="tools-item">
                                         <div className="tools-icon">
-                                            <img src="/assets/img/icon/tools_icon06.png" alt="" />
+                                            <img src="/assets/img/icon/6.png" alt="" />
                                         </div>
                                         <div className="tools-content">
                                             <h3 className="title">ERP</h3>

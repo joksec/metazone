@@ -44,8 +44,7 @@ export default function ServiceDetails() {
                         <div className="row align-items-center">
                             <div className="col-lg-6">
                                 <div className="company-img">
-                                    <img src="/assets/img/images/company_img01.png" alt="" />
-                                    <img src="/assets/img/images/company_img02.png" alt="" />
+                                    <img src="/assets/img/icon/m1.png" alt="" />
                                 </div>
                             </div>
                             <div className="col-lg-6">

@@ -63,7 +63,7 @@ export default function ServiceDetails() {
                         <div className="row justify-content-center">
                             <div className="col-xl-8 col-lg-10">
                                 <div className="services-details-img text-center">
-                                    <img src="/assets/img/images/services_details_img.png" alt="" />
+                                    <img src="/assets/img/images/community_img.png" alt="" />
                                 </div>
                                 <div className="services-details-content text-center">
                                     <p>L'identité visuelle est l'élément clé de votre marque. Elle représente votre entreprise, ses valeurs, sa personnalité et crée une connexion durable avec votre public cible.</p>

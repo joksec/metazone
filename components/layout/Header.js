@@ -45,7 +45,7 @@ export default function Header({ scroll, headercls }) {
                                         </div>
                                         <div className="header-action">
                                             <ul className="list-wrap">
-                                            <Link href="contact"> <button class="learn-more">
+                                            <Link href="/contact"> <button class="learn-more">
     <span class="circle" aria-hidden="true">
       <span class="icon arrow"></span>
     </span>

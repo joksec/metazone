@@ -141,6 +141,39 @@ export default function PortfolioFilter() {
                         </div>
                     </div>
                 </div>
+                <div className="col-lg-4 col-md-6 grid-item grid-sizer cat-four">
+                    <div className="project-item-two">
+                        <div className="project-thumb-two">
+                            <img src="/assets/img/project/audio-visuel/b8oblwyt8a7375h3himfdgdl5xp5.jpeg" alt="" />
+                        </div>
+                        <div className="project-content-two">
+                            <h2 className="title">3D</h2>
+                            <span>3D Bus</span>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-lg-4 col-md-6 grid-item grid-sizer cat-four">
+                    <div className="project-item-two">
+                        <div className="project-thumb-two">
+                            <img src="/assets/img/project/audio-visuel/i5hxscbv38qhs9fddtzrw2km4j2g.png" alt="" />
+                        </div>
+                        <div className="project-content-two">
+                            <h2 className="title">3D</h2>
+                            <span>Rooms 3D</span>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-lg-4 col-md-6 grid-item grid-sizer cat-four">
+                    <div className="project-item-two">
+                        <div className="project-thumb-two">
+                            <img src="/assets/img/project/audio-visuel/sc1ppflt9d47e3dtt0yw3f60ax4a.jpeg" alt="" />
+                        </div>
+                        <div className="project-content-two">
+                            <h2 className="title">3D</h2>
+                            <span>Object 3D</span>
+                        </div>
+                    </div>
+                </div>
                 <div className="col-lg-4 col-md-6 grid-item grid-sizer cat-two">
                     <div className="project-item-two">
                         <div className="project-thumb-two">
@@ -152,10 +185,120 @@ export default function PortfolioFilter() {
                         </div>
                     </div>
                 </div>
+                <div className="col-lg-4 col-md-6 grid-item grid-sizer cat-two">
+                    <div className="project-item-two">
+                        <div className="project-thumb-two">
+                            <img src="/assets/img/project/identite-visuel/3r3u6jzpxgvtz19zf7zvilb3y7g1.jpeg" alt="" />
+                        </div>
+                        <div className="project-content-two">
+                            <h2 className="title">Illustration</h2>
+                            <span>Tableau</span>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-lg-4 col-md-6 grid-item grid-sizer cat-two">
+                    <div className="project-item-two">
+                        <div className="project-thumb-two">
+                            <img src="/assets/img/project/identite-visuel/10rw5rxvtdmwemjutc7xytsrkzze.jpeg" alt="" />
+                        </div>
+                        <div className="project-content-two">
+                            <h2 className="title">Logo</h2>
+                            <span>Conception Logo</span>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-lg-4 col-md-6 grid-item grid-sizer cat-two">
+                    <div className="project-item-two">
+                        <div className="project-thumb-two">
+                            <img src="/assets/img/project/identite-visuel/9wd591eqiclesqwk9v2a5cgarzy3.jpeg" alt="" />
+                        </div>
+                        <div className="project-content-two">
+                            <h2 className="title">Product </h2>
+                            <span>Design emballage</span>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-lg-4 col-md-6 grid-item grid-sizer cat-two">
+                    <div className="project-item-two">
+                        <div className="project-thumb-two">
+                            <img src="/assets/img/project/identite-visuel/rl8wn7i8s7ihlcfatraebtbhfy6s.jpeg" alt="" />
+                        </div>
+                        <div className="project-content-two">
+                            <h2 className="title">Carte Visite</h2>
+                            <span>Carte visite</span>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-lg-4 col-md-6 grid-item grid-sizer cat-two">
+                    <div className="project-item-two">
+                        <div className="project-thumb-two">
+                            <img src="/assets/img/project/identite-visuel/" alt="" />
+                        </div>
+                        <div className="project-content-two">
+                            <h2 className="title">Carte Visite</h2>
+                            <span>Carte visite pour IsiTek</span>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-lg-4 col-md-6 grid-item grid-sizer cat-two">
+                    <div className="project-item-two">
+                        <div className="project-thumb-two">
+                            <img src="/assets/img/project/identite-visuel/441d9k5181ngdmvi1y81duaus9q3.jpeg" alt="" />
+                        </div>
+                        <div className="project-content-two">
+                            <h2 className="title">Conception</h2>
+                            <span>Sac </span>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-lg-4 col-md-6 grid-item grid-sizer cat-two">
+                    <div className="project-item-two">
+                        <div className="project-thumb-two">
+                            <img src="/assets/img/project/identite-visuel/n4973uk3j7b7agh27kq63fu67y72.png" alt="" />
+                        </div>
+                        <div className="project-content-two">
+                            <h2 className="title">Brochure</h2>
+                            <span>Brochure</span>
+                        </div>
+                    </div>
+                </div>
                 <div className="col-lg-4 col-md-6 grid-item grid-sizer cat-three">
                     <div className="project-item-two">
                         <div className="project-thumb-two">
                             <img src="/assets/img/project/mobile/App_GuideDuGolfe.jpg" alt="" />
+                        </div>
+                        <div className="project-content-two">
+                            <h2 className="title">Mobile App</h2>
+                            <span>Conception Application mobile</span>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-lg-4 col-md-6 grid-item grid-sizer cat-three">
+                    <div className="project-item-two">
+                        <div className="project-thumb-two">
+                            <img src="/assets/img/project/mobile/2q7sqfdbhvx1km7pnb7s91p59ah6.jpeg" alt="" />
+                        </div>
+                        <div className="project-content-two">
+                            <h2 className="title">Mobile App</h2>
+                            <span>Conception Application mobile</span>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-lg-4 col-md-6 grid-item grid-sizer cat-three">
+                    <div className="project-item-two">
+                        <div className="project-thumb-two">
+                            <img src="/assets/img/project/mobile/7exuik9ac031rnvt8r81u1qvk1gc.jpeg" alt="" />
+                        </div>
+                        <div className="project-content-two">
+                            <h2 className="title">Mobile App</h2>
+                            <span>Conception Application mobile</span>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-lg-4 col-md-6 grid-item grid-sizer cat-three">
+                    <div className="project-item-two">
+                        <div className="project-thumb-two">
+                            <img src="/assets/img/project/mobile/lfnsd1r4wgpieu9k8e91w3mqvy6m.jpeg" alt="" />
                         </div>
                         <div className="project-content-two">
                             <h2 className="title">Mobile App</h2>

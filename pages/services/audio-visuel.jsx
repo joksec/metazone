@@ -61,14 +61,7 @@ export default function ServiceDetails() {
                 <div className="services-details-area pb-100">
                     <div className="container">
                         <div className="row justify-content-center">
-                            <div className="col-xl-8 col-lg-10">
-                                <div className="services-details-img text-center">
-                                    <img src="/assets/img/images/services_details_img.png" alt="" />
-                                </div>
-                                <div className="services-details-content text-center">
-                                    <p>Les applications mobiles sont de plus en plus populaires auprès des utilisateurs, car elles permettent de rester connecté en tout lieu et à tout moment.</p>
-                                </div>
-                            </div>
+                            
                         </div>
                     </div>
                     <div className="services-details-shape">

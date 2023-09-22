@@ -16,7 +16,7 @@ export default function ProjectDetails() {
                                 <div className="col-lg-12">
                                     <div className="project-details-inner">
                                         <div className="project-details-img">
-                                            <img src="/assets/img/images/project_details_img.jpg" alt="" />
+                                            <img src="/assets/img/images/figure-X.png" alt="" />
                                         </div>
                                         <div className="project-details-content">
                                             <p>Notre service de SEO/SEA est conçu pour vous aider à atteindre les sommets des résultats de recherche et à augmenter votre visibilité en ligne. Que vous soyez une petite entreprise ou une grande entreprise, notre équipe d'experts en référencement travaillera en étroite collaboration avec vous pour développer une stratégie personnalisée qui répond à vos objectifs commerciaux.</p>
@@ -77,8 +77,7 @@ export default function ProjectDetails() {
                             <div className="row align-items-center">
                                 <div className="col-lg-6">
                                     <div className="company-img">
-                                        <img src="/assets/img/images/company_img01.png" alt="" />
-                                        <img src="/assets/img/images/company_img02.png" alt="" />
+                                        <img src="/assets/img/images/rocket-seo.png" alt="" />
                                     </div>
                                 </div>
                                 <div className="col-lg-6">
